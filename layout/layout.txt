@@ -1,0 +1,26 @@
+name
+priority
+language (array)
+domains (array)
+base_url
+search_url_format_episode
+	string_format
+	replacement (array)
+		title, lower_dash_title, year_text, year_int, season_text, season_int, episode_text, episode_int, title_lower
+search_url_format_movie
+	string_format
+	replacement (array)
+		title, title_lower_dash, year_text, year_int, title_lower
+more_pages_indicator
+links_on_first_page
+drill_down_tag
+is_torrent
+is_direct
+links_container_path
+link_path
+title_path
+details_path
+magnet_path
+seeders_path
+filesize_path
+quality_path

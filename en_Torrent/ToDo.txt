@@ -1,0 +1,24 @@
+bitlord.py - Need to figure out api
+btscene.py - Movies only?
+extratorrent.py - search not working on website
+idope.py
+isohunt2.py
+kickass2.py
+limetorrents.py
+moviemagnet.py
+nyaa.py
+skytorrents.py
+topnow.py
+torlock.py
+torrentapi.py
+torrentdownload.py
+torrentfunk.py
+torrentgalaxy.py
+yourbittorrent.py
+ytsws.py
+zoogle.py
+
+
+Do/test next page for magnet4you and magnetdl
+bitlord has an api
+idope gives me 2 different types of results
