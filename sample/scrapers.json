@@ -1,0 +1,24 @@
+{
+    "1": [
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/magnet4you.json",
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/eztv.json",
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/glodls.json",
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/solidtorrents.json"
+    ],
+    "2": [
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/magnetdl.json",
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/piratebay.json"
+    ],
+    "3": [
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/1337x.json"
+    ],
+    "4": [
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/ettv.json"
+    ],
+    "5": [
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_DebridOnly/dllspot.json"
+    ],
+    "6": [
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_DebridOnly/maxrls.json"
+    ]
+  }
