@@ -7,18 +7,16 @@ filepursuit.py - user would require API key
 filmxy.py - None of these links play in Exo
 furk.py
 Hdmto.py
-iwaatch.py
 iwannawatch.py
 library.py
 moviescouch.py
 ororo.py
 primewire.py
 toonget.py
-watch32.py
+watch32.py - Can't search - 520 error
 watchepisodes.py
 watchepisodeseries1.py
 watchseries.py
 watchserieshd - for movies (3 levels deep?)
 watchseriestv.py
-zmovies.py
-vidcloud9?
+zmovies.py - domain suspended

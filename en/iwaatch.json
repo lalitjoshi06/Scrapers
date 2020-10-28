@@ -1,0 +1,43 @@
+{
+    "name": "iwaatch",
+    "language": ["en"],
+    "domains": ["iwaatch.com"],
+    "base_url": "https://iwaatch.com",
+    "search_url_format_episode": {
+      "string_format": "",
+      "replacement": [
+      ]
+    },
+    "search_url_format_movie": {
+      "string_format": "/api/api.php?page=moviesearch&q=%s",
+      "replacement": [
+          "title_lower"
+      ]
+    },
+    "more_pages_indicator": "",
+    "next_page_path" : "",
+    "next_page_path_attr": "",
+    "links_on_first_page": false,
+    "drill_down_path": "li a",
+    "drill_down_path_attr": "href",
+    "is_torrent": false,
+    "is_direct": true,
+    "links_container_path": "span.download-q a",
+    "link_path": "a",
+    "link_path_attr": "href",
+    "title_path": "/title",
+    "title_path_attr": "",
+    "details_path": "|title_path|",
+    "details_path_attr": "",
+    "magnet_path": "",
+    "magnet_path_attr": "",
+    "seeders_path": "",
+    "seeders_path_attr": "",
+    "filesize_path": "",
+    "filesize_path_attr": "",
+    "quality_path": "a",
+    "quality_path_attr": "",
+    "info_path": "|title_path|",
+    "info_path_attr": ""
+  }
+  
