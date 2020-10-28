@@ -1,5 +1,4 @@
 name
-priority
 language (array)
 domains (array)
 base_url
@@ -11,6 +10,10 @@ search_url_format_movie
 	string_format
 	replacement (array)
 		title, title_lower_dash, year_text, year_int, title_lower
+title_split - to override the normal s##e## or year in the title
+	string_format
+	replacement (array)
+	title, title_lower_dash, year_text, year_int, title_lower, season_text, season_int, episode_int, epsiode_text
 more_pages_indicator
 links_on_first_page
 drill_down_tag
@@ -23,4 +26,11 @@ details_path
 magnet_path
 seeders_path
 filesize_path
-quality_path
+quality_path - can be |title_path| or |link_path|
+quality_path_attr
+info_path - can be |title_path|
+info_path_attr
+link_regex
+
+use {} if an attribute contains dom and search inside that. use \ ("\\" escaped) to note element \ attribute 
+

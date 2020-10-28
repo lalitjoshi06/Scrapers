@@ -1,10 +1,10 @@
 5movies.py
 animetoon.py
-bnwmovies.py
+bnwmovies.py - black and white movies only
 cartoonhd.py
-easynews.py
-filepursuit.py
-filmxy.py
+easynews.py - user would need to sign up
+filepursuit.py - user would require API key
+filmxy.py - None of these links play in Exo
 furk.py
 Hdmto.py
 iwaatch.py
@@ -18,7 +18,7 @@ watch32.py
 watchepisodes.py
 watchepisodeseries1.py
 watchseries.py
-watchserieshd.py
+watchserieshd - for movies (3 levels deep?)
 watchseriestv.py
 zmovies.py
 vidcloud9?
