@@ -20,5 +20,8 @@
     ],
     "6": [
       "https://raw.githubusercontent.com/weydapp/scrapers/main/en_DebridOnly/maxrls.json"
+    ],
+    "7": [
+      "https://raw.githubusercontent.com/weydapp/scrapers/main/en/watchserieshdtv.json"
     ]
   }
