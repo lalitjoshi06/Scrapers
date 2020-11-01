@@ -8,7 +8,19 @@ nyaa.py
 topnow.py
 torrentapi.py
 torrentfunk.py
-zoogle.py
+
+AniDex
+Anime Tosho
+AniRena
+btdb
+kickass
+oxtorrent
+pirateiro
+RARBG
+RuTor
+TORLOCK (anime)
+YOHOHO
+
 
 
 Do/test next page for magnet4you and magnetdl
