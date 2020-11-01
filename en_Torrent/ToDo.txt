@@ -5,10 +5,8 @@ isohunt2.py
 kickass2.py
 moviemagnet.py
 nyaa.py
-skytorrents.py
 topnow.py
 torrentapi.py
-torrentdownload.py
 torrentfunk.py
 torrentgalaxy.py
 yourbittorrent.py
