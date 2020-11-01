@@ -7,7 +7,6 @@ moviemagnet.py
 nyaa.py
 skytorrents.py
 topnow.py
-torlock.py
 torrentapi.py
 torrentdownload.py
 torrentfunk.py
