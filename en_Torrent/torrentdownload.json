@@ -12,7 +12,7 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/search?q=%s-%04d",
+      "string_format": "/search?q=%s+%04d",
       "replacement": [
         "title_lower",
         "year_int"
