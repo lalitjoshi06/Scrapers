@@ -1,10 +1,8 @@
-bitlord.py - Need to figure out api
 btscene.py - Movies only?
 extratorrent.py - search not working on website
 idope.py
 isohunt2.py
 kickass2.py
-limetorrents.py
 moviemagnet.py
 nyaa.py
 skytorrents.py
