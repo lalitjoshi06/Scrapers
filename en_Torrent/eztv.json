@@ -1,8 +1,8 @@
 {
   "name": "eztv",
   "language": ["en"],
-  "domains": ["eztv.to"],
-  "base_url": "https://eztv.io",
+  "domains": ["eztv.re", "eztv.to"],
+  "base_url": "https://eztv.re",
   "search_url_format_episode": {
     "string_format": "/search/%s-s%02de%02d",
     "replacement": [
