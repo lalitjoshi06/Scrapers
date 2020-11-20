@@ -39,6 +39,7 @@
     "seeders_path_attr": "",
     "filesize_path": "td.size",
     "filesize_path_attr": "",
+    "filesize_units": "mb",
     "quality_path": "|title_path|",
     "quality_path_attr": "",
     "info_path": "|title_path|",
