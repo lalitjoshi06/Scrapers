@@ -20,6 +20,13 @@
       "year_int"
     ]
   },
+  "search_url_format_season_pack": {
+    "string_format": "/%.1s/%s",
+    "replacement": [
+      "title_lower",
+      "title_lower_dash"
+    ]
+  },
   "more_pages_indicator": "Next Page",
   "next_page_path" : "",
   "next_page_path_attr": "",

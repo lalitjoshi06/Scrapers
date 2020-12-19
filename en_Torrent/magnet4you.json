@@ -18,6 +18,12 @@
       "year_int"
     ]
   },
+  "search_url_format_season_pack": {
+    "string_format": "/search.php?s=%s",
+    "replacement": [
+      "title"
+    ]
+  },
   "more_pages_indicator": "NEXT",
   "next_page_path" : "",
   "next_page_path_attr": "",

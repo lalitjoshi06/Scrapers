@@ -18,6 +18,12 @@
       "year_int"
     ]
   },
+  "search_url_format_season_pack": {
+    "string_format": "/q.php?q=%s&cat=0",
+    "replacement": [
+      "title_lower"
+    ]
+  },
   "api":{
     "path_title": "name",
     "path_hash": "info_hash",

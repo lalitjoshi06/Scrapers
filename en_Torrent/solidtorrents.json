@@ -18,6 +18,12 @@
       "year_int"
     ]
   },
+  "search_url_format_season_pack": {
+    "string_format": "/api/v1/search?q=%s&category=all&sort=size",
+    "replacement": [
+      "title_lower"
+    ]
+  },
   "api":{
     "path_to_array": "results",
     "path_title": "title",
