@@ -1,8 +1,8 @@
 {
     "name": "skytorrents",
     "language": ["en"],
-    "domains": ["skytorrents.to"],
-    "base_url": "https://www.skytorrents.to",
+    "domains": ["skytorrents.net"],
+    "base_url": "https://www.skytorrents.net",
     "search_url_format_episode": {
       "string_format": "/?query=%s+s%02de%02d",
       "replacement": [
