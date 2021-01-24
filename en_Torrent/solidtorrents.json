@@ -1,8 +1,8 @@
 {
   "name": "solidtorrents",
   "language": ["en"],
-  "domains": ["solidtorrents.net"],
-  "base_url": "https://solidtorrents.net",
+  "domains": ["torrends.to", "solidtorrents.net"],
+  "base_url": "https://search.torrends.to/:solidtorrents",
   "search_url_format_episode": {
     "string_format": "/api/v1/search?q=%s+s%02de%02d&category=all&sort=size",
     "replacement": [
