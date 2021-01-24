@@ -1,8 +1,8 @@
 {
-    "name": "rarbg",
+    "name": "pirateiro",
     "language": ["hi", "en"],
-    "domains": ["rarbg.to", "rarbgto.org", "proxyrarbg.org"],
-    "base_url": "http://proxyrarbg.org",
+    "domains": ["pirateiro.unblockit.ltd", "pirateiro.com"],
+    "base_url": "https://pirateiro.unblockit.ltd",
     "search_url_format_episode": {
     "string_format": "/search/%s+S%02dE%02d/1/",
     "replacement": [
