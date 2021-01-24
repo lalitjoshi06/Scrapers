@@ -1,7 +1,7 @@
 {
   "name": "piratebay",
   "language": ["en"],
-  "domains": ["1337x.unblockit.ltd"],
+  "domains": ["apibay.org"],
   "base_url": "https://1337x.unblockit.ltd",
   "search_url_format_episode": {
     "string_format": "/q.php?q=%s+s%02de%02d&cat=0",
