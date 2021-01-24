@@ -1,0 +1,38 @@
+{
+  "name": "solidtorrents",
+  "language": ["en"],
+  "domains": ["solidtorrents.net"],
+  "base_url": "https://solidtorrents.net",
+  "search_url_format_episode": {
+    "string_format": "/api/v1/search?q=%s+s%02de%02d&category=all&sort=size",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/api/v1/search?q=%s+%04d&category=all&sort=size",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/api/v1/search?q=%s&category=all&sort=size",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+  "api":{
+    "path_to_array": "results",
+    "path_title": "title",
+    "path_hash": "infohash",
+    "path_seeders": "swarm{}seeders",
+    "path_size": "size",
+    "path_magnet": "magnet"
+  },
+  "is_torrent": true,
+  "is_direct": false,
+  "name_delete_filter": ["www.Torrenting.org - "]
+}
