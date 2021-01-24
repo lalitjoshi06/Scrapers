@@ -1,35 +1,35 @@
 {
     "1": [
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/kickass.json",
-        "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/magnet4you.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/eztv.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/ytsws.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/glodls.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/solidtorrents.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/torrentdownload.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/skytorrents.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/bitlord.json"
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/kickass.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/magnet4you.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/eztv.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/ytsws.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/glodls.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/solidtorrents.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torrentdownload.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/skytorrents.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/bitlord.json"
     ],
     "2": [
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/magnetdl.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/torrentgalaxy.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/piratebay.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/yourbittorrent.json"
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/magnetdl.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torrentgalaxy.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/piratebay.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/yourbittorrent.json"
     ],
     "3": [
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/zooqle.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/1337x.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/limetorrents.json"
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/zooqle.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/1337x.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/limetorrents.json"
     ],
     "4": [
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/ettv.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/torlocktv.json",
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_Torrent/torlockmovies.json"
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/ettv.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torlocktv.json",
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torlockmovies.json"
     ],
     "5": [
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_DebridOnly/dllspot.json"
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/dllspot.json"
     ],
     "6": [
-      "https://raw.githubusercontent.com/weydapp/scrapers/main/en_DebridOnly/maxrls.json"
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/maxrls.json"
     ]
   }
