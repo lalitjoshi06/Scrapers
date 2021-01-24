@@ -1,0 +1,28 @@
+btscene.py - Movies only?
+extratorrent.py - search not working on website
+idope.py
+isohunt2.py
+kickass2.py
+moviemagnet.py
+nyaa.py
+topnow.py
+torrentapi.py
+torrentfunk.py
+
+AniDex
+Anime Tosho
+AniRena
+btdb
+kickass
+oxtorrent
+pirateiro
+RARBG
+RuTor
+TORLOCK (anime)
+YOHOHO
+
+
+
+Do/test next page for magnet4you and magnetdl
+bitlord has an api
+idope gives me 2 different types of results
