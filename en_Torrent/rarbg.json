@@ -1,8 +1,8 @@
 {
     "name": "rarbg",
     "language": ["hi", "en"],
-    "domains": ["rarbgto.org", "proxyrarbg.org"],
-    "base_url": "http://rarbgto.org",
+    "domains": ["rarbg.to", "rarbgto.org", "proxyrarbg.org"],
+    "base_url": "http://proxyrarbg.org",
     "search_url_format_episode": {
       "string_format": "?q=%s+s%02de%02d&page=1&v=&c=&sort=size&o=desc",
       "replacement": [
