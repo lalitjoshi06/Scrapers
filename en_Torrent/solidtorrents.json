@@ -1,7 +1,7 @@
 {
   "name": "solidtorrents",
   "language": ["hi", "en"],
-  "domains": ["torrentfunk.unblockit.ltd/"],
+  "domains": ["torrentfunk.unblockit.ltd", "torrentfunk.com"],
   "base_url": "https://torrentfunk.unblockit.ltd",
   "search_url_format_episode": {
     "string_format": "/api/v1/search?q=%s+s%02de%02d&category=all&sort=size",
