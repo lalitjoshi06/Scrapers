@@ -1,8 +1,8 @@
 {
-    "name": "bt4g",
+    "name": "watchsomuch",
     "language": ["en", "hi"],
-    "domains": ["bt4g.org"],
-    "base_url": "https://bt4g.org",
+    "domains": ["watchsomuch.com", "watchsomuch.unblockit.ltd"],
+    "base_url": "https://watchsomuch.unblockit.ltd",
     "search_url_format_episode": {
       "string_format": "/search?pg=1&q=%s+s%02de%02d",
       "replacement": [
