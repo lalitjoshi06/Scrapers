@@ -2,7 +2,7 @@
     "name": "skytorrents",
     "language": ["hi", "en"],
     "domains": ["skytorrents.net", "www.skytorrents.lol"],
-    "base_url": "https://www.skytorrents.lol/",
+    "base_url": "https://www.skytorrents.lol",
     "search_url_format_episode": {
       "string_format": "/?search=%s+s%02de%02d",
       "replacement": [
