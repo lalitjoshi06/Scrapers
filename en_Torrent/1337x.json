@@ -1,8 +1,8 @@
 {
-  "name": "1337x",
+  "name": "piratebay",
   "language": ["hi", "en"],
-  "domains": ["1337x.to", "1337x.gd"],
-  "base_url": "https://1337x.unblockit.ltd",
+  "domains": ["apibay.org"],
+  "base_url": "https://apibay.org",
   "fallback_urls": [
       "https://tpb.red",
       "https://mypiratebay.co",
