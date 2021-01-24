@@ -1,8 +1,8 @@
 {
-    "name": "dirtytorrents",
+    "name": "bt4g",
     "language": ["en", "hi"],
-    "domains": ["dirtytorrents.com", "dirtytorrents.unblockit.ltd"],
-    "base_url": "https://dirtytorrents.unblockit.ltd",
+    "domains": ["bt4g.org"],
+    "base_url": "https://bt4g.org",
     "search_url_format_episode": {
       "string_format": "/search?pg=1&q=%s+s%02de%02d",
       "replacement": [
