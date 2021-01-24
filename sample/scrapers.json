@@ -31,6 +31,7 @@
       "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/dllspot.json"
     ],
     "6": [
-      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/maxrls.json"
+      "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/maxrls.json",
+        "https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/hindilinks4u.json"
     ]
   }
