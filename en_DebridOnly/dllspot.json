@@ -1,7 +1,7 @@
 {
   "name": "dllspot",
-  "language": ["en"],
-  "domains": ["dllspot.com"],
+  "language": ["hi", "en"],
+  "domains": ["ddlspot.com"],
   "base_url": "http://www.ddlspot.com",
   "search_url_format_episode": {
     "string_format": "/search/?q=%s+S%02dE%02d&m=1&x=0&y=0",
