@@ -1,49 +1,49 @@
 {
-	"name": "RARBG",
-	"language": [
-		"hi",
-		"en"
-	],
-	"domains": [
-		"torrentapi.org",
-			],
-	"base_url": "https://torrentapi.org",
-	"token": {
-			"query": "/pubapi_v2.php?get_token=get_token&app_id=weyd",
-			"token_validity_time_ms": 840000,
-			"token_format": {
-				"token": "token"
-			}
-		},
-		"movie": {
-			"query": "/pubapi_v2.php?mode=search&search_imdb={query}&category=movies&format=json_extended&app_id=weyd&token={token}",
-			"keywords": "{imdbId}"
-		},
-		"episode": {
-			"query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=weyd&token={token}",
-			"keywords": "{title} {episodeCode}"
-		},
-		"season": {
-			"query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=weyd&token={token}",
-			"keywords": [
-				"{title} {seasonCode}",
-				"{title} season"
-			]
-		},
-		"json_format": {
-			"results": "torrent_results",
-			"url": "download",
-			"title": "title",
-			"seeds": "seeders",
-			"peers": "leechers",
-			"size": "size"
-		},
-		"title_replacement": {
-			"'s": "s",
-			"\"": ""
-		}
+  "name": "RARBG",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "torrentapi.org"
+  ],
+  "base_url": "https://torrentapi.org",
+  "token": {
+    "query": "/pubapi_v2.php?get_token=get_token&app_id=weyd",
+    "token_validity_time_ms": 840000,
+    "token_format": {
+      "token": "token"
+    }
+  },
+  "movie": {
+    "query": "/pubapi_v2.php?mode=search&search_imdb={query}&category=movies&format=json_extended&app_id=weyd&token={token}",
+    "keywords": "{imdbId}"
+  },
+  "episode": {
+    "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=weyd&token={token}",
+    "keywords": "{title} {episodeCode}"
+  },
+  "season": {
+    "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=weyd&token={token}",
+    "keywords": [
+      "{title} {seasonCode}",
+      "{title} season"
+    ]
+  },
+  "json_format": {
+    "results": "torrent_results",
+    "url": "download",
+    "title": "title",
+    "seeds": "seeders",
+    "peers": "leechers",
+    "size": "size"
+  },
+  "title_replacement": {
+    "'s": "s",
+    "\"": ""
+  },
   "more_pages_indicator": "<li class=\"last\">",
-  "next_page_path" : "div.pagination ul li.active + li a[href]",
+  "next_page_path": "div.pagination ul li.active + li a[href]",
   "next_page_path_attr": "abs:href",
   "links_on_first_page": false,
   "drill_down_path": "tbody tr td a[href^=/torrent]",
