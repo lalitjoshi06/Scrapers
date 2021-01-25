@@ -30,19 +30,7 @@
       "{title} season"
     ]
   },
-  "json_format": {
-    "results": "torrent_results",
-    "url": "download",
-    "title": "title",
-    "seeds": "seeders",
-    "peers": "leechers",
-    "size": "size"
-  },
-  "title_replacement": {
-    "'s": "s",
-    "\"": ""
-  },
-   "more_pages_indicator": "<li class=\"last\">",
+  "more_pages_indicator": "<li class=\"last\">",
   "next_page_path" : "div.pagination ul li.active + li a[href]",
   "next_page_path_attr": "abs:href",
   "links_on_first_page": false,
