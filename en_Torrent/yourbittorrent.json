@@ -2,7 +2,7 @@
     "name": "yourbittorrent",
     "language": ["en"],
     "domains": ["yourbittorrent2.com", "yourbittorrent.com", "sitenable.top", "sitenable.info", "sitenable.co"],
-    "base_url": "https://sitenable.top",
+    "base_url": "https://yourbittorrent2.com",
     "search_url_format_episode": {
       "string_format": "?q=%s+s%02de%02d&page=1&v=&c=&sort=size&o=desc",
       "replacement": [
