@@ -1,8 +1,8 @@
 {
     "name": "ytsws",
     "language": ["hi", "en"],
-    "domains": ["yts.ws", "yts.mx", "yts.pm"],
-    "base_url": "https://yifyddl.co",
+    "domains": ["yts.ws", "yts.unblockit.ltd", "yts.mx", "yts.pm"],
+    "base_url": "https://yts.unblockit.ltd",
     "search_url_format_episode": {
       "string_format": "",
       "replacement": [
