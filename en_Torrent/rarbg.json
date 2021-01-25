@@ -10,7 +10,7 @@
     "rarbgunblock.com",
     "rarbg.unblocked.cab"
   ],
-  "base_url": "https://rarbgproxied.org",
+  "base_url": "https://torrentapi.org",
   "time_to_wait_between_each_request_ms": 300,
   "time_to_wait_on_too_many_request_ms": 2000,
   "trust_results": true,
