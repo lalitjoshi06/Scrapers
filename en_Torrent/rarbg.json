@@ -16,22 +16,29 @@
     }
   },
   "movie": {
-    "query": "/pubapi_v2.php?mode=search&search_imdb={query}&category=movies&format=json_extended&app_id=weyd&token={token}",
-    "keywords": "{imdbId}"
+    "string_format": "/pubapi_v2.php?mode=search&search_imdb={query}&category=movies&format=json_extended&app_id=weyd&token={token}",
+    "replacement": [
+      "title",
+      "year_int"
+    ]
   },
   "episode": {
-    "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=weyd&token={token}",
-    "keywords": "{title} {episodeCode}"
+    "string_format": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=weyd&token={token}",
+    "replacement": [
+      "title",
+      "episode_int"
+    ]
   },
   "season": {
-    "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=weyd&token={token}",
-    "keywords": [
-      "{title} {seasonCode}",
-      "{title} season"
+    "string_format": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=weyd&token={token}",
+    "replacement": [
+      "title",
+      "season_int",
+      "episode_int"
     ]
   },
   "more_pages_indicator": "<li class=\"last\">",
-  "next_page_path" : "div.pagination ul li.active + li a[href]",
+  "next_page_path": "div.pagination ul li.active + li a[href]",
   "next_page_path_attr": "abs:href",
   "links_on_first_page": false,
   "drill_down_path": "tbody tr td a[href^=/torrent]",
