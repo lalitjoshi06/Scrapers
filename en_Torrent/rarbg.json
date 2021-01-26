@@ -9,28 +9,28 @@
   ],
   "base_url": "https://torrentapi.org",
   "token": {
-    "query": "/pubapi_v2.php?get_token=get_token&app_id=weyd",
+    "string_format": "/pubapi_v2.php?get_token=get_token&app_id=weyd",
     "token_validity_time_ms": 840000,
     "token_format": {
       "token": "token"
     }
   },
   "movie": {
-    "query": "/pubapi_v2.php?mode=search&search_imdb={query}&category=movies&app_id=weyd&token={token}",
+    "string_format": "/pubapi_v2.php?mode=search&search_imdb=%s+%04d%&category=movies&app_id=weyd&token={token}",
     "replacement": [
       "title",
       "year_int"
     ]
   },
   "episode": {
-    "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&app_id=weyd&token={token}",
+    "string_format": "/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d%&category=tv&app_id=weyd&token={token}",
     "replacement": [
       "title",
       "episode_int"
     ]
   },
   "season": {
-    "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&app_id=weyd&token={token}",
+    "string_format": "/pubapi_v2.php?mode=search&search_string=%s%20&category=tv&app_id=weyd&token={token}",
     "replacement": [
       "title",
       "season_int",
