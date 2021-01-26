@@ -1,10 +1,10 @@
 {
     "name": "limetorrents",
     "language": ["hi", "en"],
-    "domains": ["limetorrents.info", "limetorrents.unblockit.ltd", "limetorrents.buzz", "limetorrent.ws"],
-    "base_url": "https://limetorrents.unbl0ck.xyz",
+    "domains": ["limetorrents.info", "limetorrents.unblockit.ltd", "limetorrents.buzz", "limetorrent.cc"],
+    "base_url": "https://limetorrents.unblockit.ltd",
     "search_url_format_episode": {
-      "string_format": "/search/tv/%s+s%02de%02d/1/",
+      "string_format": "/search/tv/%s+s%02de%02d",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,7 +12,7 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/search/movies/%s+%04d/1/",
+      "string_format": "/search/movies/%s+%04d",
       "replacement": [
         "title_lower",
         "year_int"
