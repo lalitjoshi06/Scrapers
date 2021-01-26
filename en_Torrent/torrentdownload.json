@@ -4,7 +4,7 @@
     "domains": ["torrentdownloads.unblockit.ltd", "torrentdownload.info"],
     "base_url": "https://torrentdownloads.unblockit.ltd",
     "search_url_format_episode": {
-      "string_format": "/search?q=%s+s%02de%02d",
+      "string_format": "/search/?search=%s+s%02de%02d",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,7 +12,7 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/search?q=%s+%04d",
+      "string_format": "/search/?search=%s+%04d",
       "replacement": [
         "title_lower",
         "year_int"
