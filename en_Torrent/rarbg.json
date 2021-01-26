@@ -16,21 +16,21 @@
     }
   },
   "movie": {
-    "query": "/pubapi_v2.php?mode=search&search_imdb={query}&category=movies&format=json_extended&app_id=weyd&token={token}",
+    "query": "/pubapi_v2.php?mode=search&search_imdb={query}&category=movies&app_id=weyd&token={token}",
     "replacement": [
       "title",
       "year_int"
     ]
   },
   "episode": {
-    "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=weyd&token={token}",
+    "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&app_id=weyd&token={token}",
     "replacement": [
       "title",
       "episode_int"
     ]
   },
   "season": {
-    "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&format=json_extended&app_id=weyd&token={token}",
+    "query": "/pubapi_v2.php?mode=search&search_string={query}&category=tv&app_id=weyd&token={token}",
     "replacement": [
       "title",
       "season_int",
