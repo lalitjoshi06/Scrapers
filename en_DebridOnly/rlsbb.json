@@ -4,7 +4,7 @@
 	"domains": ["proxybb.com", "rlsbb.unblockit.ltd"],
 	"base_url": "http://proxybb.com",
 	"search_url_format_episode": {
-		"string_format": "/?s=%s+S%02dE%02d&sort=size&order=desc",
+		"string_format": "?s=%s+S%02dE%02d&p=1",
 		"replacement": [
 			"title",
 			"season_int",
@@ -12,7 +12,7 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/?s=%s+%04d&sort=size&order=desc",
+		"string_format": "?s=%s+%04d&sort=size&p=1",
 		"replacement": [
 			"title",
 			"year_int"
