@@ -16,7 +16,7 @@
     }
   },
   "movie": {
-    "string_format": "/pubapi_v2.php?mode=search&search_imdb=%s+%04d%&category=movies&format=json&app_id=helios&token={token}",
+    "string_format": "/pubapi_v2.php?mode=search&search_string=%s+%04d%&category=movies&format=json&app_id=helios&token={token}",
     "replacement": [
       "title",
       "year_int"
