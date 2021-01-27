@@ -1,65 +1,43 @@
 {
-  "name": "RARBG",
-  "language": [
-    "hi",
-    "en"
-  ],
-  "domains": [
-    "torrentapi.org"
-  ],
-  "base_url": "https://torrentapi.org",
-  "token": {
-    "string_format": "/pubapi_v2.php?get_token=get_token&app_id=helios",
-    "token_validity_time_ms": 840000,
-    "token_format": {
-      "token": "token"
-    }
-  },
-  "movie": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s+%04d%&category=movies&format=json&app_id=helios&token={token}",
-    "replacement": [
-      "title",
-      "year_int"
-    ]
-  },
-  "episode": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d%&category=tv&format=json&app_id=helios&token={token}",
-    "replacement": [
-      "title",
-      "episode_int"
-    ]
-  },
-  "season": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s%20&category=tv&format=json&app_id=helios&token={token}",
-    "replacement": [
-      "title",
-      "season_int",
-      "episode_int"
-    ]
-  },
-  "more_pages_indicator": "Next Page",
-  "next_page_path" : "",
-  "next_page_path_attr": "",
-  "links_on_first_page": true,
-  "drill_down_path": "",
-  "drill_down_path_attr": "",
-  "is_torrent": true,
-  "is_direct": false,
-  "links_container_path": "tbody tr",
-  "link_path": "",
-  "link_path_attr": "",
-  "title_path": "tr td.n a[title]",
-  "title_path_attr": "title",
-  "details_path": "|title_path|",
-  "details_path_attr": "",
-  "magnet_path": "tr td.m a[href]",
-  "magnet_path_attr": "href",
-  "seeders_path": "tr td.s",
-  "seeders_path_attr": "",
-  "filesize_path": "tr td:eq(5)",
-  "filesize_path_attr": "",
-  "quality_path": "|title_path|",
-  "quality_path_attr": "",
-  "info_path": "|title_path|",
-  "info_path_attr": ""
-}
+    "name": "rarbg",
+    "language": ["en"],
+    "domains": ["torrentapi.org"],
+    "base_url": "https://torrentapi.org",
+    "token": {
+        "query": "/pubapi_v2.php?get_token=get_token&app_id=wako",
+        "token_validity_time_ms": 840000,
+        "token_format": {
+        "token": "token"
+        }
+    },
+    "search_url_format_episode": {
+      "string_format": "/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d&category=tv&format=json_extended&app_id=wako",
+      "replacement": [
+        "title_lower",
+        "season_int",
+        "episode_int"
+      ]
+    },
+    "search_url_format_movie": {
+      "string_format": "/pubapi_v2.php?mode=search&search_string=%s+%04d&category=tv&format=json_extended&app_id=wako",
+      "replacement": [
+        "title_lower",
+        "year_int"
+      ]
+    },
+    "search_url_format_season_pack": {
+      "string_format": "/pubapi_v2.php?mode=search&search_string=%s&category=tv&format=json_extended&app_id=wako",
+      "replacement": [
+        "title_lower"
+      ]
+    },
+    "api":{
+        "path_to_array": "torrent_results",
+        "path_title": "title",
+        "path_seeders": "seeders",
+        "path_size": "size",
+        "path_magnet": "download"
+    },
+    "is_torrent": true,
+    "is_direct": false
+  }
