@@ -2,7 +2,7 @@
 	"name": "ReleaseBB",
 	"language": ["hi", "en"],
 	"domains": ["proxybb.com", "rlsbb.unblockit.ltd"],
-	"base_url": "http://proxybb.com",
+	"base_url": "http://search.proxybb.com",
 	"search_url_format_episode": {
 		"string_format": "?s=%s+S%02dE%02d&p=1",
 		"replacement": [
