@@ -4,7 +4,7 @@
     "domains": ["kickass.onl", "kat.how", "kat.li", "kickass.cm", "kickass2.st", "kat.sx", "thekat.info"],
     "base_url": "https://kickass.onl",
     "search_url_format_episode": {
-    "string_format": "/usearch/%s+S%02dE%02d%20category:tv/",
+    "string_format": "/usearch/%s+S%02dE%02d/",
     "replacement": [
       "title_lower",
       "season_int",
@@ -12,25 +12,42 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/usearch/%s+%04d%20category:movies/",
+    "string_format": "/usearch/%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/usearch/%s%20category:tv/",
+    "string_format": "/usearch/%s",
     "replacement": [
       "title_lower"
     ]
   },
-  "api":{
-        "path_to_array": "torrent_results",
-        "path_title": "title",
-        "path_seeders": "seeders",
-        "path_size": "size",
-        "path_magnet": "download"
-    },
-    "is_torrent": true,
-    "is_direct": false
+  "more_pages_indicator": "",
+  "next_page_path" : "",
+  "next_page_path_attr": "",
+  "links_on_first_page": true,
+  "drill_down_path": "",
+  "drill_down_path_attr": "",
+  "is_torrent": true,
+  "is_direct": false,
+  "links_container_path": "tr#torrent_latest_torrents",
+  "link_path": "",
+  "link_path_attr": "",
+  "title_path": "div.torrentname a.cellMainLink",
+  "title_path_attr": "",
+  "details_path": "|title_path|",
+  "details_path_attr": "",
+  "magnet_path": "a[title=Torrent magnet link]",
+  "magnet_path_attr": "href",
+  "seeders_path": "td.green",
+  "seeders_path_attr": "",
+  "filesize_path": "td.nobr",
+  "filesize_path_attr": "",
+  "filesize_units": "gb",
+  "quality_path": "|title_path|",
+  "quality_path_attr": "",
+  "info_path": "|title_path|",
+  "info_path_attr": ""
   }
