@@ -9,28 +9,28 @@
   ],
   "base_url": "https://torrentapi.org",
   "token": {
-    "string_format": "/pubapi_v2.php?get_token=get_token&app_id=weyd",
+    "string_format": "/pubapi_v2.php?get_token=get_token&app_id=helios",
     "token_validity_time_ms": 840000,
     "token_format": {
       "token": "token"
     }
   },
   "movie": {
-    "string_format": "/pubapi_v2.php?mode=search&search_imdb=%s+%04d%&category=movies&app_id=weyd&token={token}",
+    "string_format": "/pubapi_v2.php?mode=search&search_imdb=%s+%04d%&category=movies&format=json&app_id=helios&token={token}",
     "replacement": [
       "title",
       "year_int"
     ]
   },
   "episode": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d%&category=tv&app_id=weyd&token={token}",
+    "string_format": "/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d%&category=tv&format=json&app_id=helios&token={token}",
     "replacement": [
       "title",
       "episode_int"
     ]
   },
   "season": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s%20&category=tv&app_id=weyd&token={token}",
+    "string_format": "/pubapi_v2.php?mode=search&search_string=%s%20&category=tv&format=json&app_id=helios&token={token}",
     "replacement": [
       "title",
       "season_int",
