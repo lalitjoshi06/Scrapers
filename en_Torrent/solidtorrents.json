@@ -2,7 +2,7 @@
   "name": "solidtorrents",
   "language": ["en"],
   "domains": ["solidtorrents.net"],
-  "base_url": "https://solidtorrents.net",
+  "base_url": "https://nl.torrent2021.xyz/index.php?cdURL=https://solidtorrents.net",  
   "search_url_format_episode": {
     "string_format": "/api/v1/search?q=%s+s%02de%02d&category=all&sort=size",
     "replacement": [
