@@ -1,6 +1,6 @@
 {
     "name": "rarbg",
-    "language": ["en"],
+    "language": ["hi", "en"],
     "domains": ["torrentapi.org"],
     "base_url": "https://torrentapi.org",
     "token": {
