@@ -1,8 +1,8 @@
 {
     "name": "limetorrents",
     "language": ["hi", "en"],
-    "domains": ["limetorrents.info", "limetorrents.unblockit.ltd", "limetorrents.buzz", "limetorrent.cc"],
-    "base_url": "https://limetorrents.unblockit.ltd",
+    "domains": ["limetorrents.info", "limetorrents.unblockit.ltd", "limetorrents.buzz", "limetorrent.cc", "limetorrents.unblockninja.com"],
+    "base_url": "https://limetorrents.unblockninja.com",
     "search_url_format_episode": {
       "string_format": "/search/tv/%s+s%02de%02d",
       "replacement": [
