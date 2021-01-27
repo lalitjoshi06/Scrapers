@@ -1,5 +1,5 @@
 {
-	"name": "releaseBB",
+	"name": "ReleaseBB",
 	"language": ["hi", "en"],
 	"domains": ["proxybb.com", "rlsbb.unblockit.ltd"],
 	"base_url": "http://proxybb.com",
