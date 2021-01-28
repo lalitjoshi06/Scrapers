@@ -4,7 +4,7 @@
 	"domains": ["btdb.unblockit.ltd", "btdb.eu"],
 	"base_url": "https://torrent9.to",
 	"search_url_format_episode": {
-		"string_format": "/search_torrent/%s-s%02de%02d.html",
+		"string_format": "/search_torrent/%s+s%02de%02d.html",
 		"replacement": [
 			"title_lower_dash",
 			"season_int",
