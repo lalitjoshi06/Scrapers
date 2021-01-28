@@ -19,7 +19,7 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/pubapi_v2.php?mode=search&search_string=%s+%04d&category=tv&format=json_extended&app_id=wako",
+      "string_format": "/pubapi_v2.php?mode=search&search_string=%s+%04d&category=movies&format=json_extended&app_id=wako",
       "replacement": [
         "title_lower",
         "year_int"
