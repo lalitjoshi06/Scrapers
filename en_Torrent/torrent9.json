@@ -1,0 +1,31 @@
+{
+	"name": "torrent9",
+	"language": ["en"],
+	"domains": ["btdb.unblockit.ltd", "btdb.eu"],
+	"base_url": "https://torrent9.to",
+	"search_url_format_episode": {
+		"string_format": "/search_torrent/%s-s%02de%02d.html",
+		"replacement": [
+			"title_lower_dash",
+			"season_int",
+			"episode_int"
+		]
+	},
+	"search_url_format_movie": {
+		"string_format": "/search_torrent/%s+%04d.html",
+		"replacement": [
+			"title_lower",
+			"year_int"
+		]
+	},
+	
+	"api":{
+        "path_to_array": "torrent_results",
+        "path_title": "title",
+        "path_seeders": "seeders",
+        "path_size": "size",
+        "path_magnet": "download"
+    },
+    "is_torrent": true,
+    "is_direct": false
+  }
