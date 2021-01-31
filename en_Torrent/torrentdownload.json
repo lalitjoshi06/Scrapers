@@ -2,7 +2,7 @@
     "name": "torrentdownload",
     "language": ["hi", "en"],
     "domains": ["torrentdownloads.unblockit.ltd", "torrentdownload.info", "torrentdownloads.me"],
-    "base_url": "https://torrentdownloads.unblockit.ltd",
+    "base_url": "https://torrentdownloads.me",
     "search_url_format_episode": {
       "string_format": "/search/?search=%s+s%02de%02d",
       "replacement": [
