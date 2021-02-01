@@ -1,6 +1,6 @@
 {
 	"name": "extratorrent",
-	"language": ["en"],
+	"language": ["hi", "dual", "en"],
 	"domains": ["extratorrent.unblockit.ltd"],
 	"base_url": "http://extratorrent.unblockit.ltd",
 	"search_url_format_episode": {
