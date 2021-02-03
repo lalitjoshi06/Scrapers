@@ -19,7 +19,7 @@
 		]
 	},
 	"search_url_format_season_pack": {
-		"string_format": "/search/?search==%s&new=1&x=0&y=0",
+		"string_format": "/search/?search=%s&new=1&x=0&y=0",
 		"replacement": [
 			"title_lower"
 		]
