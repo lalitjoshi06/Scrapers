@@ -2,7 +2,7 @@
     "name": "zooqle",
     "language": ["hi", "en"],
     "domains": ["zooqle.com", "zooqle.unblockit.ltd"],
-    "base_url": "https://zooqle.unblockit.ltd/",
+    "base_url": "https://zooqle.unblockit.ltd",
     "search_url_format_episode": {
       "string_format": "/search?pg=1&q=%s+s%02de%02d",
       "replacement": [
