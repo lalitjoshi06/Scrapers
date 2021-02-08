@@ -2,7 +2,7 @@
     "name": "ytsws",
     "language": ["hi", "en"],
     "domains": ["yts.ws", "yts.unblockit.ltd", "yts.mx", "yts.pm"],
-    "base_url": "https://yts.unblockit.ltd",
+    "base_url": "https://yts.unblockit.link",
     "search_url_format_episode": {
       "string_format": "",
       "replacement": [
