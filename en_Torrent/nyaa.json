@@ -4,22 +4,24 @@
 	"domains": ["nyaa.net", "nyaa.si"],
 	"base_url": "https://nyaa.si",
 	"search_url_format_episode": {
-		"string_format": "/?f=0&c=1_0&q=s+s%02de%02d&s=seeders&o=desc",
+		"string_format": "/?f=0&c=0_0&q=s+s%02de%02d&s=seeders&o=desc",
 		"replacement": [
 			"title_lower_dash",
 			"season_int",
 			"episode_int"
 		]
+
 	},
+
 	"search_url_format_movie": {
-		"string_format": "/?f=0&c=1_0&q=%s+%04d&s=seeders&o=desc",
+		"string_format": "/?f=0&c=0_0&q=%s+%04d&s=seeders&o=desc",
 		"replacement": [
 			"title_lower",
 			"year_int"
 		]
 	},
 	"search_url_format_season_pack": {
-		"string_format": "/?f=0&c=1_0&q=%s&s=seeders&o=desc",
+		"string_format": "/?f=0&c=0_0&q=%s&s=seeders&o=desc",
 		"replacement": [
 			"title_lower"
 		]
