@@ -36,7 +36,7 @@
   "search_url_format_season_pack": {
     "string_format": "/pubapi_v2.php?mode=search&search_string=%s&category=tv&format=json_extended&app_id=wako",
     "replacement": [
-      "title_lower"
+      "title"
     ]
   },
   "api": {
