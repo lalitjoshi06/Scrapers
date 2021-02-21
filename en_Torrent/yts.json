@@ -1,0 +1,35 @@
+{
+  "name": "yts",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "yts.ws",
+    "yts.unblockit.ltd",
+    "yts.mx",
+    "yts.pm"
+  ],
+  "base_url": "https://yts.unblockit.link",
+  "search_url_format_episode": {
+    "string_format": "",
+    "replacement": []
+  },
+  "search_url_format_movie": {
+    "string_format": "/api/v2/list_movies.json?query_term=%s&sort_by=seeds&order_by=desc",
+    "replacement": [
+      "imdb_id"
+    ]
+  },
+  "api": {
+    "path_to_base_array": "data{}movies",
+    "path_to_array": "torrents",
+    "path_title": "title_long",
+    "path_seeders": "seeds",
+    "path_size": "size_bytes",
+    "path_quality": "quality",
+    "path_hash": "hash"
+  },
+  "is_torrent": true,
+  "is_direct": false
+}
