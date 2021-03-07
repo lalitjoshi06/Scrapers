@@ -8,7 +8,7 @@
   ],
   "base_url": "https://nyaa.net",
   "search_url_format_episode": {
-    "string_format": "/api/search?c=3_&q=s+s%02de%02d&refine=1",
+    "string_format": "/api/search?c=3_&q=%s+s%02de%02d&refine=1",
     "replacement": [
       "title_lower",
       "season_int",
