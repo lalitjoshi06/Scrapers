@@ -47,7 +47,7 @@
   "details_path_attr": "",
   "magnet_path": "div.links a:eq(3)",
   "magnet_path_attr": "href",
-  "seeders_path": "span:eq(4)",
+  "seeders_path": "",
   "seeders_path_attr": "",
   "filesize_path": "div.size",
   "filesize_path_attr": "",
