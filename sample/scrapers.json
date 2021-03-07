@@ -34,14 +34,10 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torlocktv.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/yts.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/btdb.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torrent9.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/ox.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torlockmovies.json"
-	],
+	],	
 	"5": [
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/dllspot.json"
-	],
-	"6": [
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/maxrls.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/rlsbb.json"
+		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/maxrls.json"		
 	]
 }
