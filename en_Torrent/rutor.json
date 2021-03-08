@@ -9,7 +9,7 @@
   ],
   "base_url": "http://rutor.info",
   "search_url_format_episode": {
-    "string_format": "/search/%s-%02dx%02d",
+    "string_format": "/search/%s+%02dx%02d",
     "replacement": [
       "title_lower_dash",
       "season_int",
@@ -17,7 +17,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/search/%s-%04d",
+    "string_format": "/search/%s+%04d",
     "replacement": [
       "title_lower_dash",
       "year_int"
