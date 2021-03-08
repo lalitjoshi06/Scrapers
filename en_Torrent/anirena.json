@@ -4,7 +4,7 @@
 	"domains": ["anirena.com"],
 	"base_url": "https://www.anirena.com",
 	"search_url_format_episode": {
-		"string_format": "/?s=s+s%02de%02d",
+		"string_format": "/?s=%s+s%02de%02d",
 		"replacement": [
 			"title_lower",
 			"season_int",
