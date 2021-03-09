@@ -11,7 +11,7 @@
   "search_url_format_episode": {
     "string_format": "/search/%s+%02dx%02d",
     "replacement": [
-      "title_lower_dash",
+      "title_lower",
       "season_int",
       "episode_int"
     ]
@@ -19,7 +19,7 @@
   "search_url_format_movie": {
     "string_format": "/search/%s+%04d",
     "replacement": [
-      "title_lower_dash",
+      "title_lower",
       "year_int"
     ]
   },
