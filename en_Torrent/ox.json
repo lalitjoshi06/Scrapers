@@ -4,9 +4,10 @@
     "en"
   ],
   "domains": [
-    "oxtorrent.ws"
+    "oxtorrent.ws",
+    "oxtorrent.unblockit.buzz"
   ],
-  "base_url": "https://oxtorrent.unblockit.link",
+  "base_url": "https://oxtorrent.unblockit.buzz",
   "search_url_format_episode": {
     "string_format": "/recherche/%s+s%02de%02d",
     "replacement": [
