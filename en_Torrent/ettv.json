@@ -2,7 +2,7 @@
   "name": "ettv",
   "language": ["hi", "en"],
   "domains": ["ettvcentral.com", "ettv.unblockit.ltd"],
-  "base_url": "https://ettv.unblockit.link",
+  "base_url": "https://ettv.unblockit.buzz",
   "search_url_format_episode": {
     "string_format": "/torrents-search.php?search=%s+S%02dE%02d",
     "replacement": [
