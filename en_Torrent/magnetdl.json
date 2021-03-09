@@ -1,8 +1,8 @@
 {
   "name": "magnetdl",
   "language": ["hi", "en"],
-  "domains": ["magnetdl.com", "magnetdl.unblockit.ltd"],
-  "base_url": "https://magnetdl.unblockit.link",
+  "domains": ["magnetdl.com", "magnetdl.unblockit.buzz"],
+  "base_url": "https://magnetdl.unblockit.buzz",
   "search_url_format_episode": {
     "string_format": "/%.1s/%s-s%02de%02d",
     "replacement": [
