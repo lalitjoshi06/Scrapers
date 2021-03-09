@@ -1,8 +1,8 @@
 {
     "name": "torrentgalaxy",
     "language": ["hi", "en"],
-    "domains": ["torrentgalaxy.to", "torrentgalaxy.pw", "torrentgalaxy.unblockit.ltd"],
-    "base_url": "https://torrentgalaxy.unblockit.link",
+    "domains": ["torrentgalaxy.to", "torrentgalaxy.pw", "torrentgalaxy.unblockit.buzz"],
+    "base_url": "https://torrentgalaxy.unblockit.buzz",
     "search_url_format_episode": {
       "string_format": "/torrents.php?search=%s+s%02de%02d&sort=size&order=desc",
       "replacement": [
