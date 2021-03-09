@@ -8,7 +8,7 @@
     "btdb.unblockit.ltd",
     "btdb.eu"
   ],
-  "base_url": "https://btdb.unblockit.link",
+  "base_url": "https://btdb.unblockit.buzz",
   "search_url_format_episode": {
     "string_format": "/search/%s+s%02de%02d/0/?sort=popular",
     "replacement": [
