@@ -1,8 +1,8 @@
 {
     "name": "torlock",
     "language": ["hi", "en"],
-    "domains": ["torlock.com", "torlock.unblockit.pro", "torlock.cc", "torlock.unblockit.ltd"],
-    "base_url": "https://torlock.unblockit.link",
+    "domains": ["torlock.com", "torlock.unblockit.pro", "torlock.cc", "torlock.unblockit.buzz"],
+    "base_url": "https://torlock.unblockit.buzz",
     "search_url_format_episode": {
       "string_format": "/all/torrents/%s-s%02de%02d.html?",
       "replacement": [
