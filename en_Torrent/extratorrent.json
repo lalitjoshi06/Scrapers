@@ -2,7 +2,7 @@
 	"name": "extratorrent",
 	"language": ["hi", "en"],
 	"domains": ["extratorrent.unblockit.ltd"],
-	"base_url": "http://extratorrent.unblockit.link",
+	"base_url": "http://extratorrent.unblockit.buzz",
 	"search_url_format_episode": {
 		"string_format": "/search/?search=%s+s%02de%02d&new=1&x=0&y=0",
 		"replacement": [
