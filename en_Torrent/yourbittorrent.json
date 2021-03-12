@@ -4,7 +4,7 @@
     "domains": ["yourbittorrent2.com", "yourbittorrent.com"],
     "base_url": "https://yourbittorrent2.com",
     "search_url_format_episode": {
-      "string_format": "?q=%s+s%02de%02d&page=1&v=&c=&sort=size&o=desc",
+      "string_format": "?q=%s+s%02de%02d&page=1&v=&c=3&sort=size&o=desc",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,7 +12,7 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "?q=%s+%04d&page=1&v=&c=&sort=size&o=desc",
+      "string_format": "?q=%s+%04d&page=1&v=&c=1&sort=size&o=desc",
       "replacement": [
         "title_lower",
         "year_int"
