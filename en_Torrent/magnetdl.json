@@ -4,7 +4,7 @@
   "domains": ["magnetdl.com", "magnetdl.unblockit.buzz", "magnetdl.unblockedfor.me"],
   "base_url": "https://magnetdl.unblockedfor.me",
   "search_url_format_episode": {
-    "string_format": "/%.1s/%s-s%02de%02d",
+    "string_format": "/%.1s/%s-s%02de%02d/se/desc/",
     "replacement": [
       "title_lower",
       "title_lower_dash",
@@ -13,7 +13,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/%.1s/%s-%d",
+    "string_format": "/%.1s/%s-%d/se/desc/",
     "replacement": [
       "title_lower",
       "title_lower_dash",
