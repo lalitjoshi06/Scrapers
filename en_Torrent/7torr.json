@@ -7,7 +7,7 @@
   "domains": [
     "7torr.com"
   ],
-  "base_url": "http://7torr.com",
+  "base_url": "https://seventorrents.unblockit.buzz",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
