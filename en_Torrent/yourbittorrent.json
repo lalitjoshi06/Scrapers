@@ -18,9 +18,9 @@
         "year_int"
       ]
     },
-    "more_pages_indicator": "<div class=\"search_stat\"><span",
-    "next_page_path" : "div.search_stat span.active + a",
-    "next_page_path_attr": "abs:href",
+    "more_pages_indicator": "Next",
+    "next_page_path" : "",
+    "next_page_path_attr": "",
     "links_on_first_page": false,
     "drill_down_path": "tr.table-default a",
     "drill_down_path_attr": "abs:href",
