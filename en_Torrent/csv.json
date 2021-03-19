@@ -1,0 +1,36 @@
+{
+  "name": "Torrents-CSV",
+  "language": ["hi", "en"],
+  "domains": ["torrents-csv.ml"],
+  "base_url": "https://torrents-csv.ml",  
+  "search_url_format_episode": {
+    "string_format": "/service/search?q=%s+s%02de%02d&size=50",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/service/search?q=%s+%04d&size=50",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/service/search?q=%s&size=50",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+  "api":{
+    "path_title": "name",
+    "path_hash": "infohash",
+    "path_seeders": "seeders",
+    "path_size": "size_bytes"
+  },
+
+  "is_torrent": true,
+  "is_direct": false
+}
