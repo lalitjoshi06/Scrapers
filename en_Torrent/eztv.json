@@ -1,8 +1,8 @@
 {
   "name": "eztv",
   "language": ["hi", "en"],
-  "domains": ["eztv.re", "eztv.it", "eztv.ch", "eztv.unblockit.ltd"],
-  "base_url": "https://eztv.unblockit.buzz",
+  "domains": ["eztv.re", "eztv.it", "eztv.ch", "eztv.unblockit.club"],
+  "base_url": "https://eztv.unblockit.club",
   "search_url_format_episode": {
     "string_format": "/search/%s-s%02de%02d",
     "replacement": [
