@@ -1,8 +1,8 @@
 {
     "name": "zooqle",
     "language": ["hi", "en"],
-    "domains": ["zooqle.com", "zooqle.unblockit.club"],
-    "base_url": "https://zooqle.unblockit.club",
+    "domains": ["zooqle.com", "zooqle.unblockedfor.me"],
+    "base_url": "https://zooqle.unblockedfor.me",
     "search_url_format_episode": {
       "string_format": "/search?pg=1&q=%s+s%02de%02d",
       "replacement": [
