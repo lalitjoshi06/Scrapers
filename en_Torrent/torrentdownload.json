@@ -5,11 +5,10 @@
     "en"
   ],
   "domains": [
-    "torrentdownloads.d4.re",
     "torrentdownload.ch",
     "torrentdownload.info"
   ],
-  "base_url": "https://torrentdownloads.d4.re",
+  "base_url": "https://www.torrentdownload.info",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
