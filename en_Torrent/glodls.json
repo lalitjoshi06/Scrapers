@@ -1,8 +1,8 @@
 {
   "name": "glotorrents",
   "language": ["hi", "en"],
-  "domains": ["glodls.to", "glotorrents.unblockit.buzz"],
-  "base_url": "https://glotorrents.unblockit.buzz",
+  "domains": ["glodls.to", "glotorrents.unblockit.bclub"],
+  "base_url": "https://glotorrents.unblockit.club",
   "search_url_format_episode": {
     "string_format": "/search_results.php?search=%s-s%02de%02d&cat=41&incldead=0&inclexternal=0&lang=0&sort=seeders&order=desc",
     "replacement": [
