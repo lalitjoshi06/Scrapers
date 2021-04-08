@@ -5,9 +5,9 @@
   ],
   "domains": [
     "oxtorrent.ws",
-    "oxtorrent.unblockit.club"
+    "oxtorrent.tv"
   ],
-  "base_url": "https://oxtorrent.unblockit.club",
+  "base_url": "https://www.oxtorrent.tv",
   "search_url_format_episode": {
     "string_format": "/recherche/%s+s%02de%02d",
     "replacement": [
