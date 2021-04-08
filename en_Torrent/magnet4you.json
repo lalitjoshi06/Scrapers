@@ -4,7 +4,7 @@
   "domains": ["magnet4you.me", "magnet4you.nocensor.monster"],
   "base_url": "https://magnet4you.me",
   "search_url_format_episode": {
-    "string_format": "/search.php?s=%s+S%02dE%02d",
+    "string_format": "/search.php?s=%s+s%02de%02d",
     "replacement": [
       "title",
       "season_int",
