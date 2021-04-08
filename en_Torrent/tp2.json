@@ -5,7 +5,8 @@
     "hi"
   ],
   "domains": [
-    "torrentproject2.com"
+    "torrentproject2.com",
+    "torrentproject.torrentbay.to"
   ],
   "base_url": "https://torrentproject2.com",
   "search_url_format_episode": {
