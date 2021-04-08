@@ -6,11 +6,11 @@
   ],
   "domains": [
     "yts.ws",
-    "yts.unblockit.ltd",
+    "yts.unblockit.club",
     "yts.mx",
     "yts.pm"
   ],
-  "base_url": "https://yts.unblockit.link",
+  "base_url": "https://yts.unblockit.club",
   "search_url_format_episode": {
     "string_format": "",
     "replacement": []
