@@ -1,8 +1,8 @@
 {
   "name": "ettv",
   "language": ["hi", "en"],
-  "domains": ["ettvcentral.com", "ettv.unblockit.club"],
-  "base_url": "https://ettv.unblockit.club",
+  "domains": ["ettvcentral.com", "ettv.unblockedfor.me"],
+  "base_url": "https://ettv.unblockedfor.me",
   "search_url_format_episode": {
     "string_format": "/torrents-search.php?search=%s+S%02dE%02d",
     "replacement": [
