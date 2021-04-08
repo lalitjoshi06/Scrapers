@@ -16,7 +16,7 @@
       "replacement": [
         "title_lower",
         "year_int"
-      
+      ]
     },
     "more_pages_indicator": "Next page",
     "next_page_path" : "div.search_stat a#next",
