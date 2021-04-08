@@ -1,8 +1,8 @@
 {
     "name": "ytsws",
     "language": ["hi", "en"],
-    "domains": ["yts.ws", "yts.unblockit.buzz", "yts.mx", "yts.pm"],
-    "base_url": "https://yts.unblockit.buzz",
+    "domains": ["yts.ws", "yts.unblockit.club", "yts.mx", "yts.pm"],
+    "base_url": "https://yts.unblockit.club",
     "search_url_format_episode": {
       "string_format": "",
       "replacement": [
