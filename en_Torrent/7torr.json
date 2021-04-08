@@ -8,7 +8,7 @@
     "7torr.com",
     "seventorrents.unblockit.club"
   ],
-  "base_url": "7torr.com",
+  "base_url": "http://7torr.com",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
