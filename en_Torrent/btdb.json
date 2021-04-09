@@ -5,10 +5,10 @@
     "en"
   ],
   "domains": [
-    "btdb.unblockit.buzz",
+    "btdb.unblockit.club",
     "btdb.eu"
   ],
-  "base_url": "https://btdb.eu",
+  "base_url": "https://btdb.unblockit.club",
   "search_url_format_episode": {
     "string_format": "/search/%s+s%02de%02d/0/?sort=popular",
     "replacement": [
