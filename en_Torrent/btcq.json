@@ -7,7 +7,7 @@
   "domains": [
     "bitcq.com"
   ],
-  "base_url": "https://bitcq.com",
+  "base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=https://bitcq.com",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d&category%%5B%%5D=1",
     "replacement": [
