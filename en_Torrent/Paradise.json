@@ -7,7 +7,7 @@
   "domains": [
     "torrentparadise.org"
   ],
-  "base_url": "https://torrentparadise.org",
+  "base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=https://torrentparadise.org",
   "search_url_format_episode": {
     "string_format": "/search.php?f=%s+s%02de%02d",
     "replacement": [
