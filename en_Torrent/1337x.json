@@ -1,17 +1,16 @@
 {
   "name": "1337x",
   "language": [
-    "hi",
-    "en"
+    "en",
+    "hi"
   ],
   "domains": [
     "1337x.to",
-    "1337x.gd",
-    "1337x.unblockit.onl"
+    "1337x.gd"
   ],
   "base_url": "https://1337x.to",
   "search_url_format_episode": {
-    "string_format": "/sort-search/%s+S%02dE%02d/seeders/desc/1/",
+    "string_format": "/search/%s+S%02dE%02d/1/",
     "replacement": [
       "title",
       "season_int",
@@ -26,7 +25,7 @@
     ]
   },
   "more_pages_indicator": "<li class=\"last\">",
-  "next_page_path" : "div.pagination ul li.active + li a[href]",
+  "next_page_path": "div.pagination ul li.active + li a[href]",
   "next_page_path_attr": "abs:href",
   "links_on_first_page": false,
   "drill_down_path": "tbody tr td a[href^=/torrent]",
@@ -40,11 +39,11 @@
   "title_path_attr": "",
   "details_path": "|title_path|",
   "details_path_attr": "",
-  "magnet_path": "div.torrent-detail-page div:eq(2) ul:eq(0) li:eq(0) a",
+  "magnet_path": "div.torrent-detail-page div:eq(1) div ul:eq(0) li:eq(0) a",
   "magnet_path_attr": "href",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "div.torrent-detail-page div:eq(2) ul:eq(1) li:eq(3) span",
+  "filesize_path": "div.torrent-detail-page div:eq(1) div ul:eq(1) li:eq(3)",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
