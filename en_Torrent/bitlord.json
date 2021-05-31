@@ -7,7 +7,7 @@
   "domains": [
     "bitlordsearch.com"
   ],
-  "base_url": "http://www.bitlordsearch.com",
+  "base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=https://bitlordsearch.com",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [

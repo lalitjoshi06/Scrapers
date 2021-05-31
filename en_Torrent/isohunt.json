@@ -7,7 +7,7 @@
     "domains": [
       "isohunt.nz"
     ],
-    "base_url": "https://isohunt.nz",
+    "base_url": "https://isohunt.ch",
     "search_url_format_episode": {
       "string_format": "/torrent/?ihq=%s+s%02de%02d&fiht=2&age=0&Torrent_sort=seeders&Torrent_page=0",
       "replacement": [
