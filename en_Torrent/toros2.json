@@ -7,7 +7,7 @@
   "domains": [
     "toros2.com"
   ],
-  "base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=https://www.toros2.com",
+  "base_url": "https://www.toros2.com",
   "search_url_format_episode": {
     "string_format": "/television/torrents/%s-s%02de%02d.html?v=&smi=&sma=&i=50&sort=seeds&o=desc",
     "replacement": [

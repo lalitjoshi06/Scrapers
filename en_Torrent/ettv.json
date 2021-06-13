@@ -4,7 +4,7 @@
   "domains": ["ettvcentral.com", "ettv.unblockedfor.me"],
   "base_url": "https://ettv.unblockedfor.me",
   "search_url_format_episode": {
-    "string_format": "/torrents-search.php?search=%s+S%02dE%02d",
+    "string_format": "/torrents-search.php?search=%s+s%02de%02d",
     "replacement": [
       "title",
       "season_int",
@@ -17,13 +17,7 @@
       "title",
       "year_int"
     ]
-  },
-  "search_url_format_season_pack": {
-		"string_format": "/torrents-search.php?search=%s",
-		"replacement": [
-			"title_lower"
-		]
-	},
+  },  
   "more_pages_indicator": "",
   "next_page_path" : "",
   "next_page_path_attr": "",
