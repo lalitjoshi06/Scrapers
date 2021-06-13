@@ -2,7 +2,7 @@
     "name": "zooqle",
     "language": ["hi", "en"],
     "domains": ["zooqle.com", "zooqle.unblockit.onl", "zooqle.unblockedfor.me"],
-    "base_url": "https://zooqle.unblockninja.com",
+    "base_url": "https://zooqle.com",
     "search_url_format_episode": {
       "string_format": "/search?pg=1&q=%s+s%02de%02d",
       "replacement": [
@@ -18,6 +18,12 @@
         "year_int"
       ]
     },
+	"search_url_format_season_pack": {
+    "string_format": "/search?pg=1&q=%s",
+    "replacement": [
+      "title_lower"
+    ]
+  },
     "more_pages_indicator": "<ul class=\"pagination smaller",
     "next_page_path" : "ul.pagination li.active + li a",
     "next_page_path_attr": "abs:href",

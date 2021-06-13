@@ -6,11 +6,12 @@
   ],
   "domains": [
     "1337x.to",
+	"1337xx.to",
     "1337x.gd"
   ],
-   "base_url": "https://1337x.torrentbay.to",
+   "base_url": "https://www.1337xx.to",
   "search_url_format_episode": {
-    "string_format": "/srch?search=%s+S%02dE%02d/1/",
+    "string_format": "/search/%s+S%02dE%02d/1/",
     "replacement": [
       "title",
       "season_int",
@@ -18,7 +19,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/srch?search=%s+%04d/1/",
+    "string_format": "/search/%s+%04d/1/",
     "replacement": [
       "title",
       "year_int"

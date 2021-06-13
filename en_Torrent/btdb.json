@@ -23,13 +23,7 @@
       "title_lower",
       "year_int"
     ]
-  },
-  "search_url_format_season_pack": {
-    "string_format": "/search/%s/0/?sort=popular",
-    "replacement": [
-      "title_lower"
-    ]
-  },
+  },  
   "more_pages_indicator": "",
   "next_page_path": "",
   "next_page_path_attr": "",
