@@ -1,48 +1,48 @@
 {
-    "name": "4movierulz",
-    "language": [
-      "hi",
-      "en"
-    ],
-    "domains": [
-      "rapidmoviez.cr"    
-    ],
-    "base_url": "https://4movierulz.gg",
-    "search_url_format_episode": {
-      "string_format": "",
-      "replacement": [
-      ]
-    },
-    "search_url_format_movie": {
-      "string_format": "/?s=%s+%04d",
-      "replacement": [
-        "title_lower",
-        "year_int"
-      ]
-    },
-    "more_pages_indicator": "",
-    "next_page_path": "",
-    "next_page_path_attr": "",
-    "links_on_first_page": false,
-    "drill_down_path": "div.featured a",
-    "drill_down_path_attr": "href",
-    "is_torrent": true,
-    "is_direct": false,
-    "links_container_path": "a[href^=magnet]",
-    "link_path": "",
-    "link_path_attr": "",
-    "title_path": "/title",
-    "title_path_attr": "",
-    "details_path": "|title_path|",
-    "details_path_attr": "",
-    "magnet_path": "a",
-    "magnet_path_attr": "href",
-    "seeders_path": "",
-    "seeders_path_attr": "",
-    "filesize_path": "small:eq(1)",
-    "filesize_path_attr": "",
-    "quality_path": "small:eq(2)",
-    "quality_path_attr": "",
-    "info_path": "|title_path|",
-    "info_path_attr": ""
-  }
+	"name": "4movierulz",
+	"language": [
+		"hi",
+		"en"
+	],
+	"domains": [
+		"rapidmoviez.cr",
+		"4movierulz.ag"
+	],
+	"base_url": "https://4movierulz.ag",
+	"search_url_format_episode": {
+		"string_format": "",
+		"replacement": []
+	},
+	"search_url_format_movie": {
+		"string_format": "/?s=%s+%04d",
+		"replacement": [
+			"title_lower",
+			"year_int"
+		]
+	},
+	"more_pages_indicator": "",
+	"next_page_path": "",
+	"next_page_path_attr": "",
+	"links_on_first_page": false,
+	"drill_down_path": "div.featured a",
+	"drill_down_path_attr": "href",
+	"is_torrent": true,
+	"is_direct": false,
+	"links_container_path": "a[href^=magnet]",
+	"link_path": "",
+	"link_path_attr": "",
+	"title_path": "/title",
+	"title_path_attr": "",
+	"details_path": "|title_path|",
+	"details_path_attr": "",
+	"magnet_path": "a",
+	"magnet_path_attr": "href",
+	"seeders_path": "",
+	"seeders_path_attr": "",
+	"filesize_path": "small:eq(1)",
+	"filesize_path_attr": "",
+	"quality_path": "small:eq(2)",
+	"quality_path_attr": "",
+	"info_path": "|title_path|",
+	"info_path_attr": ""
+}
