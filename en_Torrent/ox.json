@@ -7,7 +7,7 @@
     "oxtorrent.ws",
     "oxtorrent.tv"
   ],
-  "base_url": "https://www.oxtorrent.ph",
+  "base_url": "https://www.oxtorrent.pe",
   "search_url_format_episode": {
     "string_format": "/recherche/%s+s%02de%02d",
     "replacement": [
