@@ -41,7 +41,7 @@
 	"details_path_attr": "",
 	"magnet_path": "a[href^=magnet]",
 	"magnet_path_attr": "href",
-	"seeders_path": "td:eq(5)",
+	"seeders_path": "td:eq(4)",
 	"seeders_path_attr": "",
 	"filesize_path": "td:eq(3)",
 	"filesize_path_attr": "",
