@@ -5,9 +5,9 @@
   ],
   "domains": [
     "oxtorrent.ws",
-    "oxtorrent.tv"
+    "oxtorrent.io"
   ],
-  "base_url": "https://www.oxtorrent.pe",
+  "base_url": "https://www.oxtorrent.io",
   "search_url_format_episode": {
     "string_format": "/recherche/%s+s%02de%02d",
     "replacement": [
