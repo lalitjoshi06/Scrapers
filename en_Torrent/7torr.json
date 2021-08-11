@@ -8,7 +8,7 @@
     "7torr.com",
     "seventorrents.unblockit.uno"
   ],
-  "base_url": "https://seventorrents.unblockit.uno",
+  "base_url": "https://seventorrents.unblockit.ch",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
