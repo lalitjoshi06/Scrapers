@@ -2,7 +2,7 @@
 	"name": "extratorrent",
 	"language": ["hi", "en"],
 	"domains": ["extratorrent.unblockedfor.me", "extratorrents.it", "extratorrent.unblockit.ch"],
-	"base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=https://extratorrent.si",
+	"base_url": "https://extratorrent.unblockit.ch",
 	"search_url_format_episode": {
 		"string_format": "/search/?search=%s+s%02de%02d&new=1&x=0&y=0",
 		"replacement": [
