@@ -7,7 +7,7 @@
     "domains": [
       "isohunt.nz"
     ],
-    "base_url": "https://isohunt.ch",
+    "base_url": "https://ersupport.com/plugins/QuickWebProxy/miniProxy.php?https://isohunt.ch",
     "search_url_format_episode": {
       "string_format": "/torrent/?ihq=%s+s%02de%02d&fiht=2&age=0&Torrent_sort=seeders&Torrent_page=0",
       "replacement": [
@@ -27,14 +27,14 @@
     "next_page_path": "",
     "next_page_path_attr": "",
     "links_on_first_page": false,
-    "drill_down_path": "table tbody tr[data-key=0] a[href^=/torrent_details]",
+    "drill_down_path": "table tbody tr[data-key=0] a[href*=/torrent_details]",
     "drill_down_path_attr": "abs:href",
     "is_torrent": true,
     "is_direct": false,
     "links_container_path": "div.col-sm-12 div.p",
     "link_path": "",
     "link_path_attr": "",
-    "title_path": " a[href^=/torrent_details]",
+    "title_path": " a[href*=/torrent_details]",
     "title_path_attr": "",
     "details_path": "|title_path|",
     "details_path_attr": "",
