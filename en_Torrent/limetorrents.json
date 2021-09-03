@@ -2,7 +2,7 @@
     "name": "limetorrents",
     "language": ["hi", "en"],
     "domains": ["limetorrents.info", "limetorrents.unblockit.onl", "limetorrents.pro", "limetorrent.cc", "limetorrentx.cc"],
-    "base_url": "https://www.limetorrents.pro",
+    "base_url": "https://limetorrents.proxyninja.org",
     "search_url_format_episode": {
       "string_format": "/search/tv/%s-s%02de%02d",
       "replacement": [
