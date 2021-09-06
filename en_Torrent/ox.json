@@ -7,7 +7,7 @@
     "oxtorrent.ws",
     "oxtorrent.io"
   ],
-  "base_url": "https://www.oxtorrent.io",
+  "base_url": "https://www.oxtorrent.cx",
   "search_url_format_episode": {
     "string_format": "/recherche/%s+s%02de%02d",
     "replacement": [
