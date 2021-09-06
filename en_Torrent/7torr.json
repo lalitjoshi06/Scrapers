@@ -6,9 +6,9 @@
   ],
   "domains": [
     "7torr.com",
-    "seventorrents.unblockit.uno"
+    "seventorrents.unblockit.ws"
   ],
-  "base_url": "https://seventorrents.unblockit.ch",
+  "base_url": "https://seventorrents.unblockit.ws",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
