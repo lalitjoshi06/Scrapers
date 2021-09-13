@@ -6,9 +6,9 @@
   ],
   "domains": [
     "7torr.com",
-    "seventorrents.unblockit.ws"
+    "btscene.nl"
   ],
-  "base_url": "https://seventorrents.unblockit.ws",
+  "base_url": "https://ersupport.com/plugins/QuickWebProxy/miniProxy.php?http://btscene.nl",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
