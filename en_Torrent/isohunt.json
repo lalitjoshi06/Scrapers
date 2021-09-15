@@ -7,7 +7,7 @@
     "domains": [
       "isohunt.nz"
     ],
-    "base_url": "https://ersupport.com/plugins/QuickWebProxy/miniProxy.php?https://isohunt.ch",
+    "base_url": "http://mygoodstream.pw/proxy.php?https://isohunt.nz",
     "search_url_format_episode": {
       "string_format": "/torrent/?ihq=%s+s%02de%02d&fiht=2&age=0&Torrent_sort=seeders&Torrent_page=0",
       "replacement": [
