@@ -5,10 +5,10 @@
 		"en"
 	],
 	"domains": [
-		"rapidmoviez.cr",
+		"rapidmoviez.be",
 		"4movierulz.ag"
 	],
-	"base_url": "https://7movierulz.im",
+	"base_url": "https://7movierulz.be",
 	"search_url_format_episode": {
 		"string_format": "",
 		"replacement": []
