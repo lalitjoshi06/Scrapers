@@ -9,7 +9,7 @@
 	"1337xx.to",
     "1337x.gd"
   ],
-   "base_url": "https://www.1337xx.to",
+   "base_url": "https://1337x.proxyninja.org",
   "search_url_format_episode": {
     "string_format": "/search/%s+S%02dE%02d/1/",
     "replacement": [
