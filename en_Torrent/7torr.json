@@ -8,7 +8,7 @@
     "7torr.com",
     "btscene.nl"
   ],
-  "base_url": "https://mygoodstream.pw/proxy.php?http://btscene.nl",
+  "base_url": "https://ersupport.com/plugins/QuickWebProxy/miniProxy.php?http://btscene.nl",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
