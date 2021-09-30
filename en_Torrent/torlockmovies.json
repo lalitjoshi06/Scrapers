@@ -2,7 +2,7 @@
     "name": "torlock-M",
     "language": ["hi", "en"],
     "domains": ["torlock.com", "torlock.unblockit.pro", "torlock.cc", "torlock2.d4.re", "torlock.unblockit.ch"],
-    "base_url": "https://www.torlock.icu",    
+    "base_url": "https://www.nre.agency/miniproxy.php?https://www.torlock.com",    
     "search_url_format_movie": {
       "string_format": "/all/torrents/%s-%04d.html?",
       "replacement": [
