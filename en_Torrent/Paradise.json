@@ -7,7 +7,7 @@
   "domains": [
     "torrentparadise.org"
   ],
-  "base_url": "https://torrentparadise.pm",
+  "base_url": "https://torrentparadise.cl",
   "search_url_format_episode": {
     "string_format": "/search.php?f=%s+s%02de%02d",
     "replacement": [
