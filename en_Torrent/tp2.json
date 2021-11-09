@@ -8,7 +8,7 @@
     "torrentproject2.com",
     "torrentproject.torrentbay.to"
   ],
-  "base_url": "https://torrentproject.torrentbay.to",
+  "base_url": "https://www.nre.agency/miniproxy.php?https://torrentproject2.com",
   "search_url_format_episode": {
     "string_format": "/?t=%s+s%02de%02d&orderby=seeders",
     "replacement": [
