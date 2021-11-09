@@ -1,7 +1,7 @@
 {
 	"name": "BitSearch",
 	"language": ["hi", "en"],
-	"domains": ["extratorrent.unblockedfor.me", "extratorrents.it", "extratorrent.unblockit.ch"],
+	"domains": ["bitsearch.to"],
 	"base_url": "https://bitsearch.to",
 	"search_url_format_episode": {
 		"string_format": "/search?q=%s+s%02de%02d&sort=date&order=desc",
