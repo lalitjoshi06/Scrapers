@@ -11,7 +11,7 @@
 	],
 	"base_url": "https://1337x.proxyninja.org",
 	"search_url_format_episode": {
-		"string_format": "/search/%s+S%02dE%02d/1/",
+		"string_format": "/sort-search/%s+S%02dE%02d/time/desc/1/",
 		"replacement": [
 			"title",
 			"season_int",
@@ -19,16 +19,16 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/search/%s+%04d/1/",
+		"string_format": "/sort-search/%s+%04d/time/desc/1/",
 		"replacement": [
 			"title",
 			"year_int"
 		]
 	},
 	"search_url_format_season_pack": {
-		"string_format": "/search/%s/1/",
+		"string_format": "/sort-search/%s/time/desc/1/",
 		"replacement": [
-			"title"
+			"title_lower"
 		]
 	},
 	"more_pages_indicator": "<li class=\"last\">",
