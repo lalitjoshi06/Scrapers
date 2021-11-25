@@ -2,7 +2,7 @@
   "name": "glotorrents",
   "language": ["hi", "en"],
   "domains": ["glodls.to", "glotorrents.unblockedfor.me"],
-  "base_url": "https://glodls.to",
+  "base_url": "https://mygoodstream.pw/proxy.php?https://glodls.to",
   "search_url_format_episode": {
     "string_format": "/search_results.php?search=%s-s%02de%02d&cat=41&incldead=0&inclexternal=0&lang=0&sort=seeders&order=desc",
     "replacement": [
