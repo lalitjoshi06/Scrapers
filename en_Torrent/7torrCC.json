@@ -7,7 +7,7 @@
 	"domains": [
 		"7torrents.cc"
 	],
-	"base_url": "https://www.nre.agency/miniproxy.php?https://www.7torrents.cc",
+	"base_url": "https://www.7torrents.cc",
 	"search_url_format_episode": {
 		"string_format": "/search?query=%s+S%02dE%02d&sort=created",
 		"replacement": [
