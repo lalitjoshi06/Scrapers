@@ -2,7 +2,7 @@
   "name": "ettv",
   "language": ["hi", "en"],
   "domains": ["ettvcentral.com", "ettv.unblockedfor.me"],
-  "base_url": "https://ettv.proxyninja.org",
+  "base_url": "http://xlx723.dyndns.org/iproxy/miniProxy.php?https://www.ettvcentral.com",
   "search_url_format_episode": {
     "string_format": "/torrents-search.php?search=%s+s%02de%02d",
     "replacement": [

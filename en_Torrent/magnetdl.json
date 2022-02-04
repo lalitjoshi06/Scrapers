@@ -2,7 +2,7 @@
   "name": "magnetdl",
   "language": ["hi", "en"],
   "domains": ["magnetdl.com", "magnetdl.unblockit.buzz", "magnetdl.unblockedfor.me"],
-  "base_url": "https://magnetdl.proxyninja.org",
+  "base_url": "https://magnetdl.abcproxy.org",
   "search_url_format_episode": {
     "string_format": "/%.1s/%s-s%02de%02d/se/desc/",
     "replacement": [
