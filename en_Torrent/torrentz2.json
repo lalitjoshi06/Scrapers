@@ -4,7 +4,7 @@
   "domains": ["torrentz2.torrentbay.to"],
   "base_url": "https://torrentzeu.org",
   "search_url_format_episode": {
-    "string_format": "/kick.php?q=%s+s%02de%02d",
+    "string_format": "/data.php?q=%s+s%02de%02d",
     "replacement": [
       "title",
       "season_int",
@@ -12,7 +12,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/kick.php?q=%s+%04d",
+    "string_format": "/data.php?q=%s+%04d",
     "replacement": [
       "title",
       "year_int"
