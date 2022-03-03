@@ -1,8 +1,8 @@
 {
   "name": "Ttz2",
   "language": ["hi", "en"],
-  "domains": ["torrentz2.torrentbay.to"],
-  "base_url": "https://torrentzeu.org",
+  "domains": ["torrentzeu.org"],
+  "base_url": "https://2torrentz2eu.in",
   "search_url_format_episode": {
     "string_format": "/data.php?q=%s+s%02de%02d",
     "replacement": [
