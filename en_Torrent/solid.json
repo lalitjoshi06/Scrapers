@@ -31,7 +31,7 @@
   "drill_down_path_attr": "",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "div.search-result",
+  "links_container_path": "li.search-result",
   "link_path": "",
   "link_path_attr": "",
   "title_path": "div.info h5 a",
