@@ -2,7 +2,7 @@
     "name": "torrentgalaxy",
     "language": ["hi", "en"],
     "domains": ["torrentgalaxy.to", "torrentgalaxy.pw", "torrentgalaxy.unblockedfor.me"],
-    "base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=https://torrentgalaxy.mx",
+    "base_url": "https://tgx.proxyninja.org",
     "search_url_format_episode": {
       "string_format": "/torrents.php?search=%s+s%02de%02d&sort=size&order=desc",
       "replacement": [

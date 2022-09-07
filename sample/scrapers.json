@@ -5,10 +5,8 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/freshmeat.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/ytsws.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/glodls.json",		
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torrentdownload.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/Paradise.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/tp2.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/bitlord.json"
+		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torrentdownload.json",		
+		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/tp2.json"		
 	],
 	"2": [
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/magnetdl.json",
@@ -18,24 +16,20 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/onlytorrent.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/solid.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/nyaa.json",		
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/csv.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/tpnl.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/csv.json",		
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/yourbittorrent.json"
 	],
 	"3": [
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/zooqle.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/1337x.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/rarbg.json",		
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/kenben.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/Bitsearch.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/rutor.json",		
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/toros2.json",		
+		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/rutor.json",				
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/btcq.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/cloud.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/limetorrents.json"
 	],
 	"4": [
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/ettv.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torrentz2.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torlockseries.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/yts.json",
@@ -43,8 +37,7 @@
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/ox.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/4movie.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/concen.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/isohunt.json",
-		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/topnow.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/isohunt.json",		
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_Torrent/torlockmovies.json"
 	],	
 	"5": [

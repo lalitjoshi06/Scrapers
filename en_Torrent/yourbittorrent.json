@@ -2,7 +2,7 @@
     "name": "yourbittorrent",
     "language": ["en"],
     "domains": ["yourbittorrent2.com", "yourbittorrent.com"],
-    "base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=https://yourbittorrent2.com",
+    "base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=https://yourbittorrent.com",
     "search_url_format_episode": {
       "string_format": "/?q=%s+s%02de%02d&page=1&v=&c=3&sort=size&o=desc",
       "replacement": [
