@@ -2,7 +2,7 @@
   "name": "Ttz2",
   "language": ["hi", "en"],
   "domains": ["torrentzeu.org"],
-  "base_url": "https://2torrentz2eu.in",
+  "base_url": "https://torrentz2.pics",
   "search_url_format_episode": {
     "string_format": "/data.php?q=%s+s%02de%02d",
     "replacement": [
@@ -26,7 +26,7 @@
   "drill_down_path_attr": "",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "tbody tr",
+  "links_container_path": "table.table-bordered tbody tr",
   "link_path": "",
   "link_path_attr": "",
   "title_path": "td:eq(0) span",
