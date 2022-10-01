@@ -1,0 +1,46 @@
+{
+  "name": "Tt2NZ",
+  "language": ["hi", "en"],
+  "domains": ["torrentz2.nz"],
+  "base_url": "https://torrentz2.nz",
+  "search_url_format_episode": {
+    "string_format": "/search?q=%s+s%02de%02d",
+    "replacement": [
+      "title",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/search?q=%s+%04d",
+    "replacement": [
+      "title",
+      "year_int"
+    ]
+  },  
+  "more_pages_indicator": "NEXT",
+  "next_page_path" : "",
+  "next_page_path_attr": "",
+  "links_on_first_page": true,
+  "drill_down_path": "",
+  "drill_down_path_attr": "",
+  "is_torrent": true,
+  "is_direct": false,
+  "links_container_path": "dl",
+  "link_path": "",
+  "link_path_attr": "",
+  "title_path": "dt a",
+  "title_path_attr": "",
+  "details_path": "|title_path|",
+  "details_path_attr": "",
+  "magnet_path": "dd a[href^=magnet]",
+  "magnet_path_attr": "href",
+  "seeders_path": "dd  span:eq(3)",
+  "seeders_path_attr": "",
+  "filesize_path": "dd  span:eq(2)",
+  "filesize_path_attr": "",
+  "quality_path": "|title_path|",
+  "quality_path_attr": "",
+  "info_path": "|title_path|",
+  "info_path_attr": ""
+}
