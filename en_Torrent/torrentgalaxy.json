@@ -1,8 +1,8 @@
 {
     "name": "torrentgalaxy",
     "language": ["hi", "en"],
-    "domains": ["torrentgalaxy.to", "torrentgalaxy.pw", "torrentgalaxy.unblockedfor.me"],
-    "base_url": "https://mygoodstream.pw/proxy.php?https://torrentgalaxy.mx",
+    "domains": ["torrentgalaxy.to", "torrentgalaxy.mx", "torrentgalaxy.unblockedfor.me"],
+    "base_url": "https://tgx.rs",
     "search_url_format_episode": {
       "string_format": "/torrents.php?search=%s+s%02de%02d&sort=size&order=desc",
       "replacement": [
