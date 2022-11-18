@@ -5,11 +5,11 @@
     "en"
   ],
   "domains": [
-    "toros2.com"
+    "bulltorrent.com"
   ],
   "base_url": "https://www.bulltorrent.com",
   "search_url_format_episode": {
-    "string_format": "/television/torrents/%s-s%02de%02d.html?v=&i=100&sort=added&o=desc",
+    "string_format": "/all/torrents/%s-s%02de%02d.html",
     "replacement": [
       "title_lower",
       "season_int",
@@ -17,7 +17,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/movie/torrents/%s-%04d.html?v=&i=100&sort=added&o=desc",
+    "string_format": "/all/torrents/%s-%04d.html",
     "replacement": [
       "title_lower",
       "year_int"
@@ -27,7 +27,7 @@
   "next_page_path": "",
   "next_page_path_attr": "",
   "links_on_first_page": false,
-  "drill_down_path": "table.table-sm tr td a[href^=/torrent/]",
+  "drill_down_path": "table.table-responsive tr td a[href^=/torrent/]",
   "drill_down_path_attr": "abs:href",
   "is_torrent": true,
   "is_direct": false,
@@ -40,7 +40,7 @@
   "details_path_attr": "",
   "magnet_path": "div.row a[href^=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "table.table-striped tr:eq(4) td:eq(1)",
+  "seeders_path": "table.table-striped tr:eq(4) td:eq(1):has(font[color=red])",
   "seeders_path_attr": "",
   "filesize_path": "table.table-striped tr:eq(2) td:eq(1)",
   "filesize_path_attr": "",
