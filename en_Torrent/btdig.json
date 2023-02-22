@@ -7,7 +7,7 @@
   "domains": [
     "btdig.com"
   ],
-  "base_url": "https://btdig.com",
+  "base_url": "https://meumundomaisdigital.com.br/wp-content/plugins/super-links/application/helpers/super-links-proxy.php?https://btdig.com",
   "search_url_format_episode": {
     "string_format": "/search?q=%s+s%02de%02d",
     "replacement": [
