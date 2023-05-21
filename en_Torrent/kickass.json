@@ -2,7 +2,7 @@
     "name": "kickass",
     "language": ["hi", "en"],
     "domains": ["kickass.onl", "kat.how", "kat.li", "kickass.cm", "kickass2.st", "kat.sx", "thekat.info"],
-    "base_url": "https://mygoodstream.pw/proxy.php?https://kkickass.com",
+    "base_url": "https://www.limetorrents.lol",
     "search_url_format_episode": {
     "string_format": "/usearch/%s+S%02dE%02d/?field=seeders&sorder=desc",
     "replacement": [
