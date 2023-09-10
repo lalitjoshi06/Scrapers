@@ -4,7 +4,7 @@
   "domains": ["torrentzeu.org"],
   "base_url": "https://2torrentz2eu.in",
   "search_url_format_episode": {
-    "string_format": "/data.php?q=%s+s%02de%02d",
+    "string_format": "/search.php?q=%s+s%02de%02d",
     "replacement": [
       "title",
       "season_int",
@@ -12,7 +12,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/data.php?q=%s+%04d",
+    "string_format": "/search.php?q=%s+%04d",
     "replacement": [
       "title",
       "year_int"

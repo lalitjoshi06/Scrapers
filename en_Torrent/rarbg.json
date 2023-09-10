@@ -1,57 +1,57 @@
 {
-  "name": "rarbg",
-  "language": [
-    "hi",
-    "en"
-  ],
-  "domains": [
-    "torrentapi.org"
-  ],
-  "base_url": "https://torrentapi.org",
-  "token": {
-    "query": "/pubapi_v2.php?get_token=get_token&app_id=weydx",
-    "token_format": {
-      "token": "token"
-    },
-    "token_validity_time_ms": 840000
-  },
-  "search_url_format_episode": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s+s%02de%02d&category=tv&sort=seeders&limit=50&format=json_extended&app_id=weydx",
-    "time_to_wait_between_each_request_ms": 300,
-    "time_to_wait_on_too_many_request_ms": 3000,
-    "max_retries": 10,
-    "replacement": [
-      "title_lower",
-      "season_int",
-      "episode_int"
-    ]
-  },
-  "search_url_format_movie": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s+%04d&category=movies&sort=seeders&limit=50&format=json_extended&app_id=weydx",
-    "time_to_wait_between_each_request_ms": 300,
-    "time_to_wait_on_too_many_request_ms": 3000,
-    "max_retries": 10,
-    "replacement": [
-      "title_lower",
-      "year_int"
-    ]
-  },
-  "search_url_format_season_pack": {
-    "string_format": "/pubapi_v2.php?mode=search&search_string=%s&category=tv&format=json_extended&app_id=weydx",
-    "time_to_wait_between_each_request_ms": 300,
-    "time_to_wait_on_too_many_request_ms": 3000,
-    "max_retries": 10,
-    "replacement": [
-      "title"
-    ]
-  },
-  "api": {
-    "path_to_array": "torrent_results",
-    "path_title": "title",
-    "path_seeders": "seeders",
-    "path_size": "size",
-    "path_magnet": "download"
-  },
-  "is_torrent": true,
-  "is_direct": false
+	"name": "RarBG",
+	"language": [
+		"en",
+		"hi"
+	],
+	"domains": [
+		"rargb.to"
+	],
+	"base_url": "https://rargb.to",
+	"search_url_format_episode": {
+		"string_format": "/search/?search=%s+S%02dE%02d",
+		"replacement": [
+			"title",
+			"season_int",
+			"episode_int"
+		]
+	},
+	"search_url_format_movie": {
+		"string_format": "/search/?search=%s+%04d",
+		"replacement": [
+			"title",
+			"year_int"
+		]
+	},
+	"search_url_format_season_pack": {
+		"string_format": "/search/?search=%s",
+		"replacement": [
+			"title_lower"
+		]
+	},
+	"more_pages_indicator": "",
+	"next_page_path": "",
+	"next_page_path_attr": "",
+	"links_on_first_page": false,
+	"drill_down_path": "table.lista2t tbody tr.lista2 td:eq(1) a[href^=/torrent/]",
+	"drill_down_path_attr": "abs:href",
+	"is_torrent": true,
+	"is_direct": false,
+	"links_container_path": "table.lista tbody",
+	"link_path": "",
+	"link_path_attr": "",
+	"title_path": "/title",
+	"title_path_attr": "",
+	"details_path": "|title_path|",
+	"details_path_attr": "",
+	"magnet_path": "tr:eq(0) td:eq(1) a[href^=magnet]",
+	"magnet_path_attr": "href",
+	"seeders_path": "tr:eq(8) td:eq(1)",
+	"seeders_path_attr": "",
+	"filesize_path": "tr:eq(4) td:eq(1)",
+	"filesize_path_attr": "",
+	"quality_path": "|title_path|",
+	"quality_path_attr": "",
+	"info_path": "|title_path|",
+	"info_path_attr": ""
 }

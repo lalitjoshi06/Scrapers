@@ -9,7 +9,7 @@
   ],
   "base_url": "https://concen.org",
   "search_url_format_episode": {
-    "string_format": "/torrents?title_op=allwords&title=%s+s%02de%02d",
+    "string_format": "/torrents?title_op=allwords&title=%s+s%02de%02d&title_1_op=not&title_1=&seeds=1",
     "replacement": [
       "title_lower",
       "season_int",
@@ -17,7 +17,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/torrents?title_op=allwords&title=%s+%04d",
+    "string_format": "/torrents?title_op=allwords&title=%s+%04d&title_1_op=not&title_1=&seeds=1",
     "replacement": [
       "title_lower",
       "year_int"

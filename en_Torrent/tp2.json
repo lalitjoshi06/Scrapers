@@ -8,7 +8,7 @@
     "torrentproject2.com",
     "torrentproject.torrentbay.to"
   ],
-  "base_url": "https://torrentproject2.com",
+  "base_url": "https://torrentproject.cc",
   "search_url_format_episode": {
     "string_format": "/?t=%s+s%02de%02d&orderby=seeders",
     "replacement": [
