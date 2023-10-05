@@ -8,7 +8,7 @@
     "torrentdownload.ch",
     "torrentdownload.info"
   ],
-  "base_url": "http://treinandoseo.esy.es/seo-panel/plugins/QuickWebProxy/miniProxy.php?https://www.torrentdownload.info",
+  "base_url": "https://www.torrentdownload.info",
     "search_url_format_episode": {
       "string_format": "/search?q=%s+s%02de%02d",
       "replacement": [
