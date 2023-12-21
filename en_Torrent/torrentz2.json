@@ -2,7 +2,7 @@
   "name": "Ttz2",
   "language": ["hi", "en"],
   "domains": ["torrentzeu.org"],
-  "base_url": "https://torrentz2beta.asia",
+  "base_url": "https://torrentz2beta.pro",
   "search_url_format_episode": {
     "string_format": "/search.php?q=%s+s%02de%02d",
     "replacement": [
