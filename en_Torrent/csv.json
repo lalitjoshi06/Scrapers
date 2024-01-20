@@ -2,7 +2,7 @@
   "name": "Torrents-CSV",
   "language": ["hi", "en"],
   "domains": ["torrents-csv.ml"],
-  "base_url": "https://torrents-csv.ml",  
+  "base_url": "https://torrents-csv.com",  
   "search_url_format_episode": {
     "string_format": "/service/search?q=%s+s%02de%02d&size=50",
     "replacement": [
