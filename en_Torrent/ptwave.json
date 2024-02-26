@@ -1,0 +1,37 @@
+{
+  "name": "piratewave",
+  "language": ["hi", "en"],
+  "domains": ["piratewave.site"],
+  "base_url": "https://piratewave.site",
+ 
+  "search_url_format_episode": {
+    "string_format": "/api.php?q=%s+s%02de%02d",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/api.php?q=%s+%04d",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/api.php?q=%s",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+  "api":{
+    "path_title": "title",
+    "path_magnet": "magnet",
+    "path_seeders": "seeders",
+    "path_size": "size"
+  },
+
+  "is_torrent": true,
+  "is_direct": false
+}
