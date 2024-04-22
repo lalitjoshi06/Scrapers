@@ -1,1 +1,1 @@
-# scrapers
+# scrapers for Weyd app
