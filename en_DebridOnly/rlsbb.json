@@ -12,7 +12,7 @@
   ],
   "base_url": "",
   "search_url_format_episode": {
-    "string_format": "https://search.rlsbb.ru/?s=%s+S%02dE%02d&p=1",
+    "string_format": "https://search.rlsbb.cc/?s=%s+S%02dE%02d",
     "replacement": [
       "title",
       "season_int",
@@ -20,7 +20,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "https://search.rlsbb.ru/?s=%s+%04d&p=1",
+    "string_format": "https://search.rlsbb.cc/?s=%s+%04d",
     "replacement": [
       "title",
       "year_int"
@@ -30,7 +30,7 @@
   "next_page_path": "",
   "next_page_path_attr": "",
   "links_on_first_page": false,
-  "drill_down_path": "tbody#resultdiv tr td:eq(2) a[href*=rlsbb.ru]",
+  "drill_down_path": "div#post-wrapper div.entry-data-wrapper h1.entry-title a[href*=rlsbb.cc]",
   "drill_down_path_attr": "href",
   "is_torrent": false,
   "is_direct": true,
@@ -45,7 +45,7 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "",
+  "filesize_path": "p:contains('[')",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
