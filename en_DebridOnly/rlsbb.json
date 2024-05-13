@@ -1,5 +1,5 @@
 {
-  "name": "ReleaseBB",
+  "name": "Rapidgator",
   "language": [
     "hi",
     "en"
@@ -35,7 +35,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "ul.commentList div.messageBox",
-  "link_path": "p a",
+  "link_path": "p a[href*=\"rapidgator.net/file/\"]",
   "link_path_attr": "href",
   "title_path": "p:not(:has(a))",
   "title_path_attr": "",
@@ -45,7 +45,7 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "p:contains('[')",
+  "filesize_path": "p:contains('size:')",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
