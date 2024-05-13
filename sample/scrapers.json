@@ -46,6 +46,7 @@
 	],	
 	"5": [
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/rlsbb.json",
+		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/Uploadgig.json",
 		"https://raw.githubusercontent.com/lalitjoshi06/Scrapers/main/en_DebridOnly/maxrls.json"
 	]
 }
