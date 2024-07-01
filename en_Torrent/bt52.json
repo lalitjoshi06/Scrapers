@@ -5,10 +5,10 @@
     "en"
   ],
   "domains": [
-    "529049.xyz",
-    "529050.xyz"
+    "529055.xyz",
+    "529053.xyz"
   ],
-  "base_url": "https://www.529052.xyz",
+  "base_url": "https://www.529055.xyz",
   "search_url_format_episode": {
     "string_format": "/search-%s+s%02de%02d-0-0-1.html",
     "replacement": [
