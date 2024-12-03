@@ -29,9 +29,10 @@
       "title_lower"
     ]
   },
-  "more_pages_indicator": "",
-  "next_page_path": "",
-  "next_page_path_attr": "",
+ "more_pages_indicator": "li:has(a[href*='&raquo;'])", 
+  "next_page_path": "li:has(a[href*='&rsaquo;'])", 
+  "next_page_path_attr": "href", 
+  "max_more_pages": 5,
   "links_on_first_page": true,
   "drill_down_path": "",
   "drill_down_path_attr": "",
