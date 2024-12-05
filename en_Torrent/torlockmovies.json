@@ -2,15 +2,22 @@
     "name": "torlock-M",
     "language": ["hi", "en"],
     "domains": ["torlock.com", "torlock.unblockit.pro", "torlock.cc", "torlock2.d4.re", "torlock.unblockit.ch"],
-    "base_url": "https://www.torlock2.com",    
+    "base_url": "https://www.torlock.com",    
     "search_url_format_movie": {
       "string_format": "/all/torrents/%s-%04d.html?",
       "replacement": [
         "title_lower_dash",
         "year_int"
       ]
-    },	
-    "more_pages_indicator": "<ul class=\"pagination\">",
+    },
+	"check_title_before_drill_down": true,
+	"drill_down_title_check_attr": "b",
+	"max_more_pages": 10,
+	"more_pages_indicator": "<ul class=\"pagination\">",
+	"next_page_path": "ul.pagination li.active + li a",
+	"next_page_path_attr": "href",
+	"links_on_first_page": false,
+	"more_pages_indicator": "<ul class=\"pagination\">",
     "next_page_path" : "ul.pagination li.active + li a",
     "next_page_path_attr": "href",
     "links_on_first_page": false,

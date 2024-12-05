@@ -2,7 +2,7 @@
     "name": "torlock-S",
     "language": ["hi", "en"],
     "domains": ["torlock.com", "torlock.unblockit.pro", "torlock.cc"],
-    "base_url": "https://www.torlock2.com",
+    "base_url": "https://www.torlock.com",
    "search_url_format_episode": {
       "string_format": "/all/torrents/%s-s%02de%02d.html?",
       "replacement": [
@@ -17,10 +17,13 @@
       "title_lower"
     ]
   },
-    "more_pages_indicator": "<ul class=\"pagination\">",
-    "next_page_path" : "ul.pagination li.active + li a",
-    "next_page_path_attr": "href",
-    "links_on_first_page": false,
+    "check_title_before_drill_down": true,
+	"drill_down_title_check_attr": "b",
+	"max_more_pages": 10,
+	"more_pages_indicator": "<ul class=\"pagination\">",
+	"next_page_path": "ul.pagination li.active + li a",
+	"next_page_path_attr": "href",
+	"links_on_first_page": false,
     "drill_down_path": "span.tv3 +a",
     "drill_down_path_attr": "abs:href",
     "is_torrent": true,
