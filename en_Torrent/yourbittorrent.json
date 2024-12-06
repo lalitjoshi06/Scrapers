@@ -18,9 +18,12 @@
         "year_int"
       ]
     },
+    "check_title_before_drill_down": true,
+    "drill_down_title_check_attr": "text",
+    "max_more_pages": 10,
     "more_pages_indicator": "Next",
-    "next_page_path" : "",
-    "next_page_path_attr": "",
+    "next_page_path" : "nav.pagination li.page-item a.page-link:contains('Next')",
+    "next_page_path_attr": "href",
     "links_on_first_page": false,
     "drill_down_path": "tr.table-default a",
     "drill_down_path_attr": "abs:href",

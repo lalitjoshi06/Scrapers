@@ -30,9 +30,12 @@
       "title_lower"
     ]
   },
+  "check_title_before_drill_down": true,
+  "drill_down_title_check_attr": "title",
+  "max_more_pages": 10,
   "more_pages_indicator": "",
-  "next_page_path": "",
-  "next_page_path_attr": "",
+  "next_page_path": "table#nav td a",
+  "next_page_path_attr": "href",
   "links_on_first_page": false,
   "drill_down_path": "div.tt span a[href^=/t3]",
   "drill_down_path_attr": "abs:href",
@@ -47,7 +50,7 @@
   "details_path_attr": "",
   "magnet_path": "div.usite a[href*=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "div#seeders-leechers",
+  "seeders_path": "div#seeders-leechers b",
   "seeders_path_attr": "",
   "filesize_path": "div#torrent-size",
   "filesize_path_attr": "",
