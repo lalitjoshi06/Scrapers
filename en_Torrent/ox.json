@@ -23,9 +23,13 @@
       "year_int"
     ]
   },
-  "more_pages_indicator": "",
-  "next_page_path": "",
-  "next_page_path_attr": "",
+  
+  "check_title_before_drill_down": true,
+  "drill_down_title_check_attr": "|HTML|",
+  "max_more_pages": 10,
+  "more_pages_indicator": "Suivant",
+  "next_page_path": "ul.pagination li:contains('Suivant') a",
+  "next_page_path_attr": "href",
   "links_on_first_page": false,
   "drill_down_path": "tbody tr td a[href^=/torrent/]",
   "drill_down_path_attr": "abs:href",
@@ -40,7 +44,7 @@
   "details_path_attr": "",
   "magnet_path": "div.btn-magnet a[href^=magnet]",
   "magnet_path_attr": "href",
-  "seeders_path": "table:eq(1) tbody tr:eq(3)",
+  "seeders_path": "table:eq(1) tbody tr:contains(Seeders) td font#retourSeeds",
   "seeders_path_attr": "",
   "filesize_path": "table:eq(1) tbody tr:eq(2)",
   "filesize_path_attr": "",
