@@ -45,7 +45,7 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "p:contains('size:')",
+  "filesize_path": "p:contains('size:') b",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
