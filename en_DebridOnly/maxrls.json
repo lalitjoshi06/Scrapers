@@ -2,9 +2,9 @@
   "name": "max-rls",
   "language": ["en"],
   "domains": ["max-rls.com"],
-  "base_url": "http://max-rls.com",
+  "base_url": "https://max-rls.lalitjoshi06-9b1.workers.dev",
   "search_url_format_episode": {
-    "string_format": "?s=%s+%02d+%02d&submit=find",
+    "string_format": "?s=%s+%02d+%02d",
     "replacement": [
       "title",
       "season_int",
@@ -12,7 +12,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "?s=%s+%04d&submit=find",
+    "string_format": "?s=%s+%04d",
     "replacement": [
       "title",
       "year_int"
