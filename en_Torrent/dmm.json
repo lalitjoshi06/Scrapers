@@ -1,0 +1,38 @@
+{
+  "name": "DMM",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "yts.ws",
+    "yts.unblockedfor.me",
+    "yts.mx",
+    "yts.pm"
+  ],
+  "base_url": "https://zilean.elfhosted.com",
+ "search_url_format_episode": {
+    "string_format": "/dmm/filtered?Query=%s&Season=%02d&Episode=%02d",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/dmm/filtered?Query=%s&Year=%04d",
+   "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "api": {         
+    "path_title": "raw_title",
+    "path_seeders": "size",
+    "path_size": "size", 
+    "path_quality": "resolution", 
+    "path_hash": "info_hash"
+  },
+  "is_torrent": true,
+  "is_direct": false
+}
