@@ -5,10 +5,7 @@
     "en"
   ],
   "domains": [
-    "yts.ws",
-    "yts.unblockedfor.me",
-    "yts.mx",
-    "yts.pm"
+    "elfhosted.com"    
   ],
   "base_url": "https://zilean.elfhosted.com",
  "search_url_format_episode": {
@@ -27,7 +24,7 @@
     ]
   },
   "api": {         
-    "path_title": "raw_title",
+    "path_title_in_array": "raw_title",
     "path_seeders": "size",
     "path_size": "size", 
     "path_quality": "resolution", 
