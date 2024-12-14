@@ -23,12 +23,13 @@
      
     ]
   },
-  "api": {   
+ "api": {   
 	  "path_to_array": "streams",
 	  "path_title_in_array": "behaviorHints{}filename",
 	  "path_seeders": "fileIdx",
 	  "path_size": "title",
-	  "path_hash": "infoHash"
+	  "path_hash": "infoHash",
+	  "parse_size_from_string": true
   },
   "is_torrent": true,
   "is_direct": false
