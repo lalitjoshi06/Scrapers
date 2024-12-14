@@ -24,8 +24,9 @@
       "title_lower"
     ]
   },
-  "api":{
-    "path_title": "name",
+ "api":{
+    "path_to_array": "torrents",
+    "path_title_in_array": "name",
     "path_hash": "infohash",
     "path_seeders": "seeders",
     "path_size": "size_bytes"
