@@ -1,5 +1,5 @@
 {
-  "name": "Uploadgig",
+  "name": "DailyUp",
   "language": [
     "hi",
     "en"
@@ -35,7 +35,7 @@
   "is_torrent": false,
   "is_direct": true,
   "links_container_path": "ul.commentList div.messageBox",
-  "link_path": "p a[href*=\"uploadgig.com/file/\"]",
+  "link_path": "p a[href*=\"dailyuploads.net/\"]",
   "link_path_attr": "href",
   "title_path": "p:not(:has(a))",
   "title_path_attr": "",
@@ -45,8 +45,8 @@
   "magnet_path_attr": "",
   "seeders_path": "",
   "seeders_path_attr": "",
-  "filesize_path": "p:contains('size:') b",
-  "filesize_path_attr": "",
+  "filesize_path": "p:has(b):contains(size) b",
+  "filesize_path_attr": "text",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
   "info_path": "|title_path|",
