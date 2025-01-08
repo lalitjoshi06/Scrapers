@@ -8,9 +8,9 @@
     "elfhosted.com"
   ],
   "base_url": "https://torrentio.strem.fun",
- "search_url_format_episode": {
+  "search_url_format_episode": {
     "string_format": "/sort=qualitysize|limit=7/stream/series/%s:%02d:%02d.json",
-   "replacement": [
+    "replacement": [
       "imdb_id",
       "season_int",
       "episode_int"
@@ -18,18 +18,18 @@
   },
   "search_url_format_movie": {
     "string_format": "/sort=qualitysize|limit=7/stream/movie/%s.json",
-   "replacement": [
+    "replacement": [
       "imdb_id"
-     
     ]
   },
- "api": {   
-	  "path_to_array": "streams",
-	  "path_title_in_array": "behaviorHints{}filename",
-	  "path_seeders": "fileIdx",
-	  "path_size": "title",
-	  "path_hash": "infoHash",
-	  "parse_size_from_string": true
+  "api": {
+    "path_to_array": "streams",
+    "path_title_in_array": "title",
+    "api_title_split": "/",
+    "path_seeders": "fileIdx",
+    "path_size": "title",
+    "path_hash": "infoHash",
+    "parse_size_from_string": true
   },
   "is_torrent": true,
   "is_direct": false
