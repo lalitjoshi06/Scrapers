@@ -1,0 +1,39 @@
+  }
+  },
+  "glodls": {
+    "base_url": "https://glodls.to",
+    "enabled": true,
+    "episode": {
+      "keywords": "{title} {episodeCode}",
+      "query": "/search_results.php?search={query}&cat=41&incldead=0&inclexternal=0&lang=1&sort=seeders&order=desc"
+    },
+    "fallback_urls": [],
+    "html_parser": {
+      "peers": "row.querySelector('td:nth-child(7)').textContent",
+      "row": "doc.querySelectorAll('table.ttable_headinner tbody tr.t-row:nth-child(odd)')",
+      "seeds": "row.querySelector('td:nth-child(6)').textContent",
+      "size": "row.querySelector('td:nth-child(5)').textContent",
+      "title": "row.querySelector('td:nth-child(2) a:nth-child(2)').textContent",
+      "url": "row.querySelector('td:nth-child(4) a').getAttribute('href')"
+    },
+    "languages": [
+      "en"
+    ],
+    "movie": {
+      "keywords": "{title} {year}",
+      "query": "/search_results.php?search={query}&cat=1&incldead=0&inclexternal=0&lang=1&sort=size&order=desc"
+    },
+    "name": "glodls",
+    "response_type": "text",
+    "season": {
+      "keywords": "{title} {seasonCode}",
+      "query": "/search_results.php?search={query}&cat=41&incldead=0&inclexternal=0&lang=1&sort=seeders&order=desc"
+    },
+    "separator": "+",
+    "title_replacement": {
+      "&": "",
+      "'": "",
+      ".": "",
+      ":": ""
+    }
+  }
