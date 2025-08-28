@@ -1,8 +1,8 @@
 {
     "name": "torrentgalaxy",
     "language": ["hi", "en"],
-    "domains": ["torrentgalaxy.to", "torrentgalaxy.mx", "torrentgalaxy.unblockedfor.me"],
-    "base_url": "https://torrentgalaxy.mx",
+    "domains": ["torrentgalaxy.info", "torrentgalaxy.space", "torrentgalaxy.unblockedfor.me"],
+    "base_url": "https://torrentgalaxy.one",
     "search_url_format_episode": {
       "string_format": "/torrents.php?search=%s+s%02de%02d&sort=size&order=desc",
       "replacement": [
