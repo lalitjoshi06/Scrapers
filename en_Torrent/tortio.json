@@ -9,7 +9,7 @@
   ],
   "base_url": "https://torrentio.strem.fun",
   "search_url_format_episode": {
-    "string_format": "/sort=size%7Cqualityfilter=other,scr,cam,unknown/stream/series/%s:%02d:%02d.json",
+    "string_format": "/sort=size|qualityfilter=other,scr,cam,unknown/stream/series/%s:%02d:%02d.json",
     "replacement": [
       "imdb_id",
       "season_int",
@@ -17,7 +17,7 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/sort=size%7Cqualityfilter=other,scr,cam,unknown/stream/series/%s.json",
+    "string_format": "/sort=size|qualityfilter=other,scr,cam,unknown/stream/movie/%s.json",
     "replacement": [
       "imdb_id"
     ]
