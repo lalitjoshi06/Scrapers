@@ -1,0 +1,35 @@
+{
+  "name": "TorrentControl",
+  "language": ["en"],
+  "domains": ["torrentcontrol.pw"],
+  "base_url": "https://torrentcontrol.pw",
+
+  "search_url_format_movie": {
+    "string_format": "/api/v1/torrents?per_page=100&search=%s",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+
+  "search_url_format_episode": {
+    "string_format": "/api/v1/torrents?per_page=100&search=%s%%20S%02dE%02d",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+
+  "api": {
+    "path_to_array": "data",
+    "path_title_in_array": "file_name",
+    "path_magnet": "magnet_uri",
+    "path_quality": "quality",
+    "path_seeders": "seeders",
+    "path_leechers": "leechers",
+    "path_size": "size_in_mb"
+  },
+
+  "is_torrent": true,
+  "is_direct": false
+}
