@@ -6,10 +6,10 @@
 	],
 	"domains": [
 		"1337x.to",
-		"1337xx.to",
+		"1337x.tw",
 		"1337x.gd"
 	],
-	"base_url": "https://www.1337xx.to",
+	"base_url": "https://www.1337x.tw",
 	"search_url_format_episode": {
 		"string_format": "/sort-search/%s+S%02dE%02d/time/desc/1/",
 		"replacement": [
