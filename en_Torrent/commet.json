@@ -1,0 +1,36 @@
+{
+  "name": "Commet",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "elfhosted.com"
+  ],
+  "base_url": "https://comet.elfhosted.com/eyJtYXhSZXN1bHRzUGVyUmVzb2x1dGlvbiI6MCwibWF4U2l6ZSI6MCwiY2FjaGVkT25seSI6dHJ1ZSwicmVtb3ZlVHJhc2giOnRydWUsInJlc3VsdEZvcm1hdCI6WyJ0aXRsZSIsInNlZWRlcnMiXSwiZGVicmlkU2VydmljZSI6InRvcnJlbnQiLCJkZWJyaWRBcGlLZXkiOiIiLCJkZWJyaWRTdHJlYW1Qcm94eVBhc3N3b3JkIjoiIiwibGFuZ3VhZ2VzIjp7InJlcXVpcmVkIjpbXSwiZXhjbHVkZSI6W10sInByZWZlcnJlZCI6WyJlbiJdfSwicmVzb2x1dGlvbnMiOnsidW5rbm93biI6ZmFsc2V9LCJvcHRpb25zIjp7InJlbW92ZV9yYW5rc191bmRlciI6LTEwMDAwMDAwMDAwLCJhbGxvd19lbmdsaXNoX2luX2xhbmd1YWdlcyI6ZmFsc2UsInJlbW92ZV91bmtub3duX2xhbmd1YWdlcyI6ZmFsc2V9fQ==",
+  "search_url_format_episode": {
+    "string_format": "/stream/series/%s:%02d:%02d.json",
+    "replacement": [
+      "imdb_id",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/stream/movie/%s.json",
+    "replacement": [
+      "imdb_id"
+    ]
+  },
+  "api": {
+    "path_to_array": "streams",
+    "path_title_in_array": "description",
+    "api_title_split": "/|\u2508\u27A4",
+    "path_seeders": "fileIdx",
+    "path_size": "behaviorHints{}videoSize",
+    "path_quality": "behaviorHints{}filename",
+    "path_hash": "infoHash"
+  },
+  "is_torrent": true,
+  "is_direct": false
+}
