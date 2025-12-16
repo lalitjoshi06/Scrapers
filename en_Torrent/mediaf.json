@@ -7,7 +7,7 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://mediafusion.elfhosted.com",
+  "base_url": "https://mediafusion.elfhosted.com/D-9QKJtJ2L3dkuO-7e4pBJCI4SeYGvGgNLUK2tmroTEaDC0XCyp0-KiAXF8YcbllKRJZATBYKc7ZUb7Tj7r3ifGDBFu_GpXR3WgXIpXPiHz2K107gd52yWXYx2K7PoobKxp2gw-y9HJAUmkm7ZhSHgGloTrRrtzL4Zdf--GTUwJ_vzdOaBbQshh8V4kDcaRW7b_xt9_lPhporwDM19hInfYllgjKUHG8q0N2M16WBM2azaL_4gW4gJr2P0hha6TUi5xpn0-KCcsOAhGyBl7BULXGvWPjvNPUtBSxZ_EcmkmKgbiYTFjfIcfJT5GkAZ0XLCBYm8vZSylSnIBePkCqXjLPKutX0nUx6zYNL0QLFxCZQzfxmKe9WxfW3hJEOMCdKZC7G0RRDlKPnKo2aS720kUKw6adAoG-bojkge9eNEy5TjxC01l2C24EyYUUOVa8bcJsLlhXrhBFRIlu10G8XfQT1u34tCgNX88rwWybU9xMClgJ-AMb9Rj4kfrpOov1iQy9O5X3qX2cumVcA71PEkhtWosG1hn2aKBLPh4r69bb0qb7Sinksr6Ct6N-wjqLri",
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
