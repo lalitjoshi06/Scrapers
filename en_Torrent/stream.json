@@ -1,0 +1,35 @@
+{
+  "name": "stremthru",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "elfhosted.com"
+  ],
+  "base_url": "https://stremthru.elfhosted.com/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiY2FjaGVkIjp0cnVlfQ==",
+  "search_url_format_episode": {
+    "string_format": "/stream/series/%s:%02d:%02d.json",
+    "replacement": [
+      "imdb_id",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/stream/movie/%s.json",
+    "replacement": [
+      "imdb_id"
+    ]
+  },
+  "api": {
+    "path_to_array": "streams",
+    "path_title_in_array": "behaviorHints{}filename",    
+    "path_seeders": "0",
+    "path_size": "behaviorHints{}videoSize",
+    "path_quality": "description",
+    "path_hash": "infoHash"
+  },
+  "is_torrent": true,
+  "is_direct": false
+}
