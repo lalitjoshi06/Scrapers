@@ -9,7 +9,7 @@
   ],
   "base_url": "https://stremthru.elfhosted.com/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiY2FjaGVkIjp0cnVlfQ==",
   "search_url_format_episode": {
-    "string_format": "/stream/series/%s:%02d:%02d.json",
+    "string_format": "/stream/series/%s:%d:%d.json",
     "replacement": [
       "imdb_id",
       "season_int",
