@@ -4,7 +4,7 @@
 	"domains": ["nyaa.land", "nyaa.si"],
 	"base_url": "https://nyaa.land",
 	"search_url_format_episode": {
-		"string_format": "/?f=0&c=1_0&q=s+s%02de%02d&s=seeders&o=desc",
+		"string_format": "/?f=0&c=1_0&q=%s+s%02de%02d&s=seeders&o=desc",
 		"replacement": [
 			"title_lower_dash",
 			"season_int",
