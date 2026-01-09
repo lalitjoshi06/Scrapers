@@ -1,0 +1,57 @@
+{
+  "name": "AniRena",
+  "language": [
+    "en"
+  ],
+  "domains": [
+    "www.anirena.com",
+    "anirena.com"
+  ],
+  "base_url": "https://www.anirena.com",
+  "search_url_format_episode": {
+    "string_format": "/index.php?s=%s+s%02de%02d",
+    "replacement": [
+      "title_lower",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/index.php?s=%s+%04d",
+    "replacement": [
+      "title_lower",
+      "year_int"
+    ]
+  },
+  "search_url_format_season_pack": {
+    "string_format": "/index.php?s=%s",
+    "replacement": [
+      "title_lower"
+    ]
+  },
+  "more_pages_indicator": "",
+  "next_page_path": "",
+  "next_page_path_attr": "",
+  "links_on_first_page": true,
+  "drill_down_path": "",
+  "drill_down_path_attr": "",
+  "is_torrent": true,
+  "is_direct": false,
+  "links_container_path": "table tbody tr:has(td.torrents_small_type_data1)",
+  "link_path": ".torrents_small_info_data2 a[title='Download Torrent']",
+  "link_path_attr": "href",
+  "title_path": ".torrents_small_info_data1 div",
+  "title_path_attr": "",
+  "details_path": ".torrents_small_info_data1 div a",
+  "details_path_attr": "href",
+  "magnet_path": ".torrents_small_info_data2 a[title='Magnet Link']",
+  "magnet_path_attr": "href",
+  "seeders_path": ".torrents_small_seeders_data1 b big",
+  "seeders_path_attr": "",
+  "filesize_path": ".torrents_small_size_data1",
+  "filesize_path_attr": "",
+  "quality_path": "|title_path|",
+  "quality_path_attr": "",
+  "info_path": "|title_path|",
+  "info_path_attr": ""
+}
