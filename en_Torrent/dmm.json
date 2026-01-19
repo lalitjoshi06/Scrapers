@@ -7,7 +7,7 @@
   "domains": [
     "elfhosted.com"    
   ],
-  "base_url": "https://zilean.elfhosted.com",
+  "base_url": "https://zilean.stremio.ru",
  "search_url_format_episode": {
     "string_format": "/dmm/filtered?Query=%s&Season=%02d&Episode=%02d",
     "replacement": [
