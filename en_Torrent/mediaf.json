@@ -7,7 +7,7 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://mediafusionfortheweebs.midnightignite.me/D-CwiUbdADGjmusBR0mDIO9Ir7qeK5-bs2bC4OgSXYVRWadRQ1Js0sLCaniETtcK_UcMb8tbID5m-lRsVVjPpei6AnAJ74RP-lFbeFMsJ58z2uWTj644hewF_1j7vtdIsX",
+  "base_url": "https://mediafusion.stremio.ru",
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
