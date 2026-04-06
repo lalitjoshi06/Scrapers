@@ -5,9 +5,9 @@
     "en"
   ],
   "domains": [
-    "elfhosted.com"
+    "mediafusionfortheweebs.midnightignite.me"
   ],
-  "base_url": "https://mediafusion.stremio.ru/D-nyT7g0fbNjYKNVRMMniY-BX7h9xUa6EtplS-xNLkEao",
+  "base_url": "https://mediafusionfortheweebs.midnightignite.me/D-9z2ig8pU8s0Qkv3HKjGBlRejzYdSnYxKeV-6-Zw7YpU3Jy0FhuRsDIYn72fGokrM74zpln8J1wEnOqxFQnqT_2ctCON6sWDgEl3_ugMSXUU",
   "search_url_format_episode": {
     "string_format": "/stream/series/%s:%02d:%02d.json",
     "replacement": [
@@ -24,9 +24,9 @@
   },
   "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "description",
-    "api_title_split": "/|\u2508\u27A4",
-    "path_seeders": "fileIdx",
+    "api_title_split": "[🎨📺📦🌐🔗]|[-]",
+    "path_title_in_array": "behaviorHints{}filename",    
+    "path_seeders": "0",
     "path_size": "behaviorHints{}videoSize",
     "path_quality": "behaviorHints{}bingeGroup",
     "path_hash": "infoHash"
