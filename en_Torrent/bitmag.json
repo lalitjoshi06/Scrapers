@@ -1,0 +1,36 @@
+{
+  "name": "BitMag",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "domains": [
+    "workers.dev"
+  ],
+  "base_url": "https://my-search-worker.lalitjoshi06.workers.dev",
+  "search_url_format_episode": {
+    "string_format": "/?t=search&q=%s+s%02de%02d&cat=5045",
+    "replacement": [
+      "imdb_id",
+      "season_int",
+      "episode_int"
+    ]
+  },
+  "search_url_format_movie": {
+    "string_format": "/?t=search&q=%s+%04d&cat=2045",
+    "replacement": [
+      "imdb_id",
+      "year_int"
+    ]
+  },
+  "api": {
+    "path_to_array": "items",
+    "path_title": "title",
+    "path_seeders": "seeders",
+    "path_quality": "resolution",
+    "path_size": "size",
+    "path_hash": "infohash"
+  },
+  "is_torrent": true,
+  "is_direct": false
+}
