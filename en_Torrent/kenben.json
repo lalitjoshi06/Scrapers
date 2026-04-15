@@ -7,7 +7,7 @@
   "domains": [
     "knaben.eu"
   ],
-  "base_url": "https://knaben.eu",
+  "base_url": "https://knaben.org",
   "search_url_format_episode": {
     "string_format": "/search/?cat=All&q=%s+s%02de%02d&fast=0",
     "replacement": [
