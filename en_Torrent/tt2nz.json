@@ -13,6 +13,9 @@
     "replacement": ["title", "year_int"]
   },
 
+  "check_title_before_drill_down": true,
+  "drill_down_title_check_attr": "|HTML|",
+  "max_more_pages": 5,
   "more_pages_indicator": "Next",
   "next_page_path": "a[rel=next]",
   "next_page_path_attr": "href",
