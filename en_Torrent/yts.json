@@ -10,7 +10,7 @@
     "yts.mx",
     "yts.pm"
   ],
-  "base_url": "https://yts.lt",
+  "base_url": "https://yts.bz",
   "search_url_format_episode": {
     "string_format": "",
     "replacement": []
