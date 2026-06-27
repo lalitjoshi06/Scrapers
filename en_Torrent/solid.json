@@ -5,10 +5,10 @@
       "en"
     ],
     "domains": [
-      "solidtorrents.to",
-      "solidtorrents.eu"
+      "solidtorrents.eu",
+      "solidtorrents.to"
     ],
-    "base_url": "https://solidtorrents.to",
+    "base_url": "https://solidtorrents.eu",
     "search_url_format_episode": {
       "string_format": "/search?q=%s+s%02de%02d&sort=date&order=desc",
       "replacement": [
