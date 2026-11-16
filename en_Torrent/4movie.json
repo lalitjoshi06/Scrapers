@@ -6,8 +6,7 @@
 	],
 	"domains": [
 		"7movierulz.co",
-		"7movierulz.com",
-		"7movierulz.li"
+		"7movierulz.com"
 	],
 	"base_url": "https://www.7movierulz.co",
 	"search_url_format_episode": {

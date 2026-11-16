@@ -31,6 +31,7 @@
     "path_quality": "behaviorHints{}bingeGroup",
     "path_hash": "infoHash"
   },
+  "force_validate_titles": true,
   "is_torrent": true,
   "is_direct": false
 }

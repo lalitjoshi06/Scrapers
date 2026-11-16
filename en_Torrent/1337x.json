@@ -7,7 +7,10 @@
 	"domains": [
 		"1337x.tw",
 		"1337x.to",
-		"1337x.gd"
+		"1337x.st",
+		"x1337x.ws",
+		"x1337x.eu",
+		"x1337x.cc"
 	],
 	"base_url": "https://www.1337x.tw",
 	"search_url_format_episode": {

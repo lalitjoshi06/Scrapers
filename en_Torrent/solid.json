@@ -5,8 +5,7 @@
       "en"
     ],
     "domains": [
-      "solidtorrents.eu",
-      "solidtorrents.to"
+      "solidtorrents.eu"
     ],
     "base_url": "https://solidtorrents.eu",
     "search_url_format_episode": {

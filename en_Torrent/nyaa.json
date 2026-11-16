@@ -1,7 +1,7 @@
 {
 	"name": "nyaa",
 	"language": ["en"],
-	"domains": ["nyaa.land", "nyaa.si"],
+	"domains": ["nyaa.si", "nyaa.iss.ink", "nyaa.land", "nyaa.wiki", "nyaa.media"],
 	"base_url": "https://nyaa.si",
 	"search_url_format_episode": {
 		"string_format": "/?f=0&c=1_0&q=%s+s%02de%02d&s=seeders&o=desc",

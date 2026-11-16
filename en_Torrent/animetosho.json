@@ -5,8 +5,8 @@
     "en"
   ],
   "domains": [
-    "mirror.animetosho.org",
-    "animetosho.org"
+    "animetosho.org",
+    "animetosho.net"
   ],
   "base_url": "https://animetosho.org",
   "search_url_format_episode": {

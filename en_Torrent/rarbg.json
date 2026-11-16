@@ -5,7 +5,12 @@
 		"hi"
 	],
 	"domains": [
-		"rargb.to"
+		"rargb.to",
+		"therarbg.to",
+		"therarbg.com",
+		"rarbg.ninjaproxy1.com",
+		"rarbg.proxyninja.org",
+		"rarbg.torrentbay.st"
 	],
 	"base_url": "https://rargb.to",
 	"search_url_format_episode": {

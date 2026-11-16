@@ -5,12 +5,13 @@
     "en"
   ],
   "domains": [
-    "yts.ws",
-    "yts.unblockedfor.me",
-    "yts.mx",
-    "yts.pm"
+    "yts.gg",
+    "yts.ninjaproxy1.com",
+    "yts.proxyninja.org",
+    "yts.torrentbay.st",
+    "yts.torrentsbay.org"
   ],
-  "base_url": "https://yts.bz",
+  "base_url": "https://movies-api.accel.li",
   "search_url_format_episode": {
     "string_format": "",
     "replacement": []

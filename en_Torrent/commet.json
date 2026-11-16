@@ -7,9 +7,9 @@
   "domains": [
     "elfhosted.com"
   ],
-  "base_url": "https://comet.stremio.ru",
+  "base_url": "https://cometfortheweebs.midnightignite.me/eyJtYXhSZXN1bHRzUGVyUmVzb2x1dGlvbiI6MTAsIm1heFNpemUiOjAsImNhY2hlZE9ubHkiOmZhbHNlLCJzb3J0Q2FjaGVkVW5jYWNoZWRUb2dldGhlciI6ZmFsc2UsInJlbW92ZVRyYXNoIjp0cnVlLCJyZXN1bHRGb3JtYXQiOlsiYWxsIl0sImRlYnJpZFNlcnZpY2VzIjpbXSwiZW5hYmxlVG9ycmVudCI6dHJ1ZSwiZGVkdXBsaWNhdGVTdHJlYW1zIjpmYWxzZSwic2NyYXBlRGVicmlkQWNjb3VudFRvcnJlbnRzIjpmYWxzZSwiZGVicmlkU3RyZWFtUHJveHlQYXNzd29yZCI6IiIsImxhbmd1YWdlcyI6eyJyZXF1aXJlZCI6W10sImFsbG93ZWQiOltdLCJleGNsdWRlIjpbXSwicHJlZmVycmVkIjpbXX0sInJlc29sdXRpb25zIjp7fSwib3B0aW9ucyI6eyJyZW1vdmVfcmFua3NfdW5kZXIiOi0xMDAwMDAwMDAwMCwiYWxsb3dfZW5nbGlzaF9pbl9sYW5ndWFnZXMiOmZhbHNlLCJyZW1vdmVfdW5rbm93bl9sYW5ndWFnZXMiOmZhbHNlfX0=",
   "search_url_format_episode": {
-    "string_format": "/stream/series/%s:%02d:%02d.json",
+    "string_format": "/stream/series/%s:%d:%d.json",
     "replacement": [
       "imdb_id",
       "season_int",
@@ -24,9 +24,9 @@
   },
   "api": {
     "path_to_array": "streams",
-    "path_title_in_array": "description",
-    "api_title_split": "/|\u2508\u27A4",
-    "path_seeders": "fileIdx",
+    "path_title_in_array": "behaviorHints{}filename",
+    "api_title_split": "\u2508\u27A4",
+    "path_seeders": "0",
     "path_size": "behaviorHints{}videoSize",
     "path_quality": "behaviorHints{}filename",
     "path_hash": "infoHash"

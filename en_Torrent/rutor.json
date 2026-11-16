@@ -5,7 +5,8 @@
     "en"
   ],
   "domains": [
-    "rutor.info"
+    "rutor.info",
+    "rutor.is"
   ],
   "base_url": "https://sitenable.ch/o.php?b=21&f=norefer&pv=0&mobile=&u=http://rutor.info",
   "search_url_format_episode": {

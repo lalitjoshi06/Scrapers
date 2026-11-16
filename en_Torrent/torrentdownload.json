@@ -5,8 +5,8 @@
     "en"
   ],
   "domains": [
-    "torrentdownload.info",
-    "torrentdownload.ch"
+    "www.torrentdownload.info",
+    "torrentdownload.info"
   ],
   "base_url": "https://www.torrentdownload.info",
   "search_url_format_episode": {

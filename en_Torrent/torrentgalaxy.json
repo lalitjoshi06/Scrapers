@@ -1,7 +1,7 @@
 {
     "name": "torrentgalaxy",
     "language": ["hi", "en"],
-    "domains": ["torrentgalaxy.info", "torrentgalaxy.one", "torrentgalaxy.space"],
+    "domains": ["torrentgalaxy.info", "torrentgalaxy.online"],
     "base_url": "https://torrentgalaxy.info",
     "search_url_format_episode": {
       "string_format": "/torrents.php?search=%s+s%02de%02d&sort=size&order=desc",

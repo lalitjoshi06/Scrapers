@@ -9,7 +9,7 @@
   ],
   "base_url": "https://www.anirena.com",
   "search_url_format_episode": {
-    "string_format": "/index.php?s=%s+s%02de%02d",
+    "string_format": "/?q=%s+s%02de%02d",
     "replacement": [
       "title_lower",
       "season_int",
@@ -17,38 +17,41 @@
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/index.php?s=%s+%04d",
+    "string_format": "/?q=%s+%04d",
     "replacement": [
       "title_lower",
       "year_int"
     ]
   },
   "search_url_format_season_pack": {
-    "string_format": "/index.php?s=%s",
+    "string_format": "/?q=%s",
     "replacement": [
       "title_lower"
     ]
   },
-  "more_pages_indicator": "",
-  "next_page_path": "",
-  "next_page_path_attr": "",
-  "links_on_first_page": true,
-  "drill_down_path": "",
-  "drill_down_path_attr": "",
+  "check_title_before_drill_down": true,
+  "drill_down_title_check_attr": "|HTML|",
+  "max_more_pages": 10,
+  "more_pages_indicator": "title=\"Next page\" class=tl-page-btn",
+  "next_page_path": "a[title='Next page']",
+  "next_page_path_attr": "abs:href",
+  "links_on_first_page": false,
+  "drill_down_path": "a.tl-torrent-name",
+  "drill_down_path_attr": "abs:href",
   "is_torrent": true,
   "is_direct": false,
-  "links_container_path": "table tbody tr:has(td.torrents_small_type_data1)",
-  "link_path": ".torrents_small_info_data2 a[title='Download Torrent']",
-  "link_path_attr": "href",
-  "title_path": ".torrents_small_info_data1 div",
+  "links_container_path": "div.td-ov-hashes",
+  "link_path": "",
+  "link_path_attr": "",
+  "title_path": "/h1.td-title",
   "title_path_attr": "",
-  "details_path": ".torrents_small_info_data1 div a",
-  "details_path_attr": "href",
-  "magnet_path": ".torrents_small_info_data2 a[title='Magnet Link']",
-  "magnet_path_attr": "href",
-  "seeders_path": ".torrents_small_seeders_data1 b big",
+  "details_path": "|title_path|",
+  "details_path_attr": "",
+  "magnet_path": "code.td-ov-stat-hash",
+  "magnet_path_attr": "|hash|",
+  "seeders_path": "/div.td-ov-stat--se div.td-ov-stat-num",
   "seeders_path_attr": "",
-  "filesize_path": ".torrents_small_size_data1",
+  "filesize_path": "/div.td-ov-stat:has(div.td-ov-stat-lbl:contains(Size)) div.td-ov-stat-num",
   "filesize_path_attr": "",
   "quality_path": "|title_path|",
   "quality_path_attr": "",
