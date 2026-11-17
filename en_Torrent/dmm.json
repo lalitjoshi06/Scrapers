@@ -30,6 +30,7 @@
     "path_quality": "resolution", 
     "path_hash": "info_hash"
   },
+  "force_validate_titles": true,
   "is_torrent": true,
   "is_direct": false
 }
