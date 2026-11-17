@@ -4,10 +4,10 @@
     "en"
   ],
   "domains": [
-    "www.oxtorrent.co",
-    "oxtorrent.ws"
+    "oxtorrent.co",    
+	"oxtorrent.ws"
   ],
-  "base_url": "https://www.oxtorrent.co",
+  "base_url": "https://oxtorrent.ws",
   "search_url_format_episode": {
     "string_format": "/recherche/%s+s%02de%02d",
     "replacement": [
