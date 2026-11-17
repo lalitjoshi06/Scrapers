@@ -14,7 +14,7 @@
 	],
 	"base_url": "https://therarbg.to",
 	"search_url_format_episode": {
-		"string_format": "/search/?search=%s+S%02dE%02d",
+		"string_format": "/get-posts/keywords:%s+S%02dE%02d/",
 		"replacement": [
 			"title",
 			"season_int",
@@ -22,41 +22,41 @@
 		]
 	},
 	"search_url_format_movie": {
-		"string_format": "/search/?search=%s+%04d",
+		"string_format": "/get-posts/keywords:%s+%04d/",
 		"replacement": [
 			"title",
 			"year_int"
 		]
 	},
 	"search_url_format_season_pack": {
-		"string_format": "/search/?search=%s",
+		"string_format": "/get-posts/keywords:%s/",
 		"replacement": [
 			"title_lower"
 		]
 	},
 	"check_title_before_drill_down": true,
-	"drill_down_title_check_attr": "|title|",
+	"drill_down_title_check_attr": "|HTML|",
 	"max_more_pages": 10,
-	"more_pages_indicator": ">>",
-	"next_page_path": "#pager_links a",
-	"next_page_path_attr": "href",
+	"more_pages_indicator": "rel=\"next\"",
+	"next_page_path": "a[rel=next]",
+	"next_page_path_attr": "abs:href",
 	"links_on_first_page": false,
-	"drill_down_path": "table.lista2t tbody tr.lista2 td:eq(1) a[href^=/torrent/]",
+	"drill_down_path": "table.tt tr.list-entry td.n a[href^='/post-detail/']",
 	"drill_down_path_attr": "abs:href",
 	"is_torrent": true,
 	"is_direct": false,
-	"links_container_path": "table.lista tbody",
+	"links_container_path": "div.dl",
 	"link_path": "",
 	"link_path_attr": "",
-	"title_path": "/title",
+	"title_path": "/div.ph h1",
 	"title_path_attr": "",
 	"details_path": "|title_path|",
 	"details_path_attr": "",
-	"magnet_path": "tr:eq(0) td:eq(1) a[href^=magnet]",
+	"magnet_path": "a[href^=magnet]",
 	"magnet_path_attr": "href",
-	"seeders_path": "td:contains(Peers) + td",
+	"seeders_path": "/div.ph span.m span[style*='--se']",
 	"seeders_path_attr": "",
-	"filesize_path": "td:contains(Size) + td",
+	"filesize_path": "/dl.kv dt:contains(Size) + dd",
 	"filesize_path_attr": "",
 	"quality_path": "|title_path|",
 	"quality_path_attr": "",
