@@ -12,7 +12,7 @@
 		"rarbg.proxyninja.org",
 		"rarbg.torrentbay.st"
 	],
-	"base_url": "https://rargb.to",
+	"base_url": "https://therarbg.to",
 	"search_url_format_episode": {
 		"string_format": "/search/?search=%s+S%02dE%02d",
 		"replacement": [

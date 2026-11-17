@@ -3,47 +3,46 @@
     "language": ["hi", "en"],
     "domains": ["torlock.com", "torlock.cc"],
     "base_url": "https://www.torlock.com",
-   "search_url_format_episode": {
-      "string_format": "/all/torrents/%s-s%02de%02d.html?",
+    "search_url_format_episode": {
+      "string_format": "/?qq=1&q=%s+s%02de%02d",
       "replacement": [
-        "title_lower_dash",
+        "title_lower",
         "season_int",
         "episode_int"
       ]
     },
     "search_url_format_season_pack": {
-    "string_format": "/all/torrents/%s.html?",
-    "replacement": [
-      "title_lower"
-    ]
-  },
+      "string_format": "/?qq=1&q=%s",
+      "replacement": [
+        "title_lower"
+      ]
+    },
     "check_title_before_drill_down": true,
-	"drill_down_title_check_attr": "b",
-	"max_more_pages": 10,
-	"more_pages_indicator": "<ul class=\"pagination\">",
-	"next_page_path": "ul.pagination li.active + li a",
-	"next_page_path_attr": "href",
-	"links_on_first_page": false,
-    "drill_down_path": "span.tv3 +a",
+    "drill_down_title_check_attr": "|HTML|",
+    "max_more_pages": 10,
+    "more_pages_indicator": "<ul class=\"pagination\">",
+    "next_page_path": "ul.pagination li.active + li a",
+    "next_page_path_attr": "abs:href",
+    "links_on_first_page": false,
+    "drill_down_path": "a.tl-cat.c3 ~ a.tl-name",
     "drill_down_path_attr": "abs:href",
     "is_torrent": true,
     "is_direct": false,
     "links_container_path": "a[href^=magnet]",
     "link_path": "",
     "link_path_attr": "",
-    "title_path": "/dl:contains(name) dd",
+    "title_path": "/h1.rd-title",
     "title_path_attr": "",
     "details_path": "|title_path|",
     "details_path_attr": "",
     "magnet_path": "a[href^=magnet]",
     "magnet_path_attr": "href",
-    "seeders_path": "/dl:contains(swarm) dd b:eq(0)",
+    "seeders_path": "/div.rd-swarm div.rd-tile.s div.n",
     "seeders_path_attr": "",
-    "filesize_path": "/dl:contains(size) dd",
+    "filesize_path": "/div.rd-stats div.rd-stat:has(div.k:contains(Size)) div.v",
     "filesize_path_attr": "",
     "quality_path": "|title_path|",
     "quality_path_attr": "",
     "info_path": "|title_path|",
     "info_path_attr": ""
   }
-

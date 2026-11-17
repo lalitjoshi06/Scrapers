@@ -2,9 +2,9 @@
     "name": "torrentgalaxy",
     "language": ["hi", "en"],
     "domains": ["torrentgalaxy.info", "torrentgalaxy.online"],
-    "base_url": "https://torrentgalaxy.info",
+    "base_url": "https://torrentgalaxy.online",
     "search_url_format_episode": {
-      "string_format": "/torrents.php?search=%s+s%02de%02d&sort=size&order=desc",
+      "string_format": "/get-posts/?keywords=%s+s%02de%02d",
       "replacement": [
         "title_lower",
         "season_int",
@@ -12,21 +12,22 @@
       ]
     },
     "search_url_format_movie": {
-      "string_format": "/torrents.php?search=%s+%04d&sort=size&order=desc",
+      "string_format": "/get-posts/?keywords=%s+%04d",
       "replacement": [
         "title_lower",
         "year_int"
       ]
     },
     "search_url_format_season_pack": {
-    "string_format": "/torrents.php?search=%s&sort=size&order=desc",
-    "replacement": [
-      "title_lower"
-    ]
-  },
-    "more_pages_indicator": "",
-    "next_page_path" : "",
-    "next_page_path_attr": "",
+      "string_format": "/get-posts/?keywords=%s",
+      "replacement": [
+        "title_lower"
+      ]
+    },
+    "max_more_pages": 10,
+    "more_pages_indicator": "id=\"pager\"",
+    "next_page_path": "ul#pager li.page-item.active + li a",
+    "next_page_path_attr": "abs:href",
     "links_on_first_page": true,
     "drill_down_path": "",
     "drill_down_path_attr": "",
@@ -41,7 +42,7 @@
     "details_path_attr": "",
     "magnet_path": "a[href^=magnet]",
     "magnet_path_attr": "href",
-    "seeders_path": "div.tgxtablecell span.Seeders/Leechers b:eq(0)",
+    "seeders_path": "span[title='Seeders/Leechers'] b:eq(0)",
     "seeders_path_attr": "",
     "filesize_path": "div.rounded span.badge-secondary",
     "filesize_path_attr": "",
@@ -50,4 +51,3 @@
     "info_path": "|title_path|",
     "info_path_attr": ""
   }
-  
