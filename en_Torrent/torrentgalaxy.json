@@ -1,7 +1,7 @@
 {
     "name": "torrentgalaxy",
     "language": ["hi", "en"],
-    "domains": ["torrentgalaxy.info", "torrentgalaxy.online"],
+    "domains": ["torrentgalaxy.info", "tgx.shareproxy.org", "tgx.proxybox.org"],
     "base_url": "https://torrentgalaxy.online",
     "search_url_format_episode": {
       "string_format": "/get-posts/?keywords=%s+s%02de%02d",
