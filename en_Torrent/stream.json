@@ -1,34 +1,34 @@
 {
-  "name": "DMM",
+  "name": "stremthru",
   "language": [
     "hi",
     "en"
   ],
   "domains": [
-    "elfhosted.com"    
+    "elfhosted.com"
   ],
-  "base_url": "https://stremthru.elfhosted.com/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiY2FjaGVkIjp0cnVlfQ==",
- "search_url_format_episode": {
-    "string_format": "/dmm/filtered?Query=%s&Season=%02d&Episode=%02d",
+  "base_url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwic29ydCI6InF1YWxpdHkifQ==",
+  "search_url_format_episode": {
+    "string_format": "/stream/series/%s:%d:%d.json",
     "replacement": [
-      "title_lower",
+      "imdb_id",
       "season_int",
       "episode_int"
     ]
   },
   "search_url_format_movie": {
-    "string_format": "/dmm/filtered?Query=%s&Year=%04d",
-   "replacement": [
-      "title_lower",
-      "year_int"
+    "string_format": "/stream/movie/%s.json",
+    "replacement": [
+      "imdb_id"
     ]
   },
-  "api": {         
-    "path_title_in_array": "raw_title",
-    "path_seeders": "size",
-    "path_size": "size", 
-    "path_quality": "resolution", 
-    "path_hash": "info_hash"
+  "api": {
+    "path_to_array": "streams",
+    "path_title_in_array": "behaviorHints{}filename",
+    "path_seeders": "0",
+    "path_size": "behaviorHints{}videoSize",
+    "path_quality": "description",
+    "path_hash": "infoHash"
   },
   "force_validate_titles": true,
   "is_torrent": true,
