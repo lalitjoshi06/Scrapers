@@ -32,6 +32,7 @@
     "path_hash": "infoHash",
     "parse_size_from_string": true
   },
+  "force_validate_titles": true,
   "is_torrent": true,
   "is_direct": false
 }
