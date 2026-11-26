@@ -24,7 +24,7 @@
   },
   "api": {
     "path_to_array": "streams",
-    "api_title_split": "[🎨📺📦🌐🔗]|[-]",
+    "api_title_split": "-",
     "path_title_in_array": "behaviorHints{}filename",    
     "path_seeders": "0",
     "path_size": "behaviorHints{}videoSize",
